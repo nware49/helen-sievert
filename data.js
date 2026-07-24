@@ -120,15 +120,6 @@ window.WRITINGS = [
     venue: "After Stanley Milgram",
     meta: "2 pp. · PDF",
     blurb: "A close reading of Milgram's work on obedience, examining how hierarchy and social conditioning can erode individual conscience."
-  },
-
-  {
-    category: "Professional Writing",
-    title: "Cover Letter — Local Journalists Initiative, Council on Foreign Relations",
-    file: "writings/cover-letter-cfr-local-journalists-initiative.pdf",
-    venue: "Program Associate application",
-    meta: "1 p. · PDF",
-    blurb: "A cover letter for the Program Associate role with the Council on Foreign Relations' Local Journalists Initiative, connecting legal, legislative, and newsroom experience to the initiative's mission."
   }
 
 ];
