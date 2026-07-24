@@ -33,7 +33,7 @@
 
   function headerHtml() {
     var furniture =
-      '<div class="top-furniture"><span>Vol. I · No. 1</span><span>Pro Bono Publico</span></div>';
+      '<div class="top-furniture"><span>Vol. I · No. 1</span></div>';
 
     if (PAGE === "home") {
       var today = new Date().toLocaleDateString("en-US",
