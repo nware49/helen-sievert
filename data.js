@@ -8,9 +8,16 @@
    -------------------------------
    1. Put the PDF in the  writings/  folder. Give it a simple lowercase name
       with dashes instead of spaces, e.g.  my-new-essay.pdf
-   2. Copy one of the { ... } blocks in the WRITINGS list below, paste it in,
-      and fill in the fields. Keep the commas between blocks.
-   3. Save. That's it — the new card appears on the site automatically.
+   2. Build the on-site reading page from the PDF text:
+          python3 tools/gen_reading.py
+      (Add the piece's title/venue to tools/gen_reading.py first; it writes
+      reading/my-new-essay.html — the page readers see the full text on.)
+   3. Copy one of the { ... } blocks in the WRITINGS list below, paste it in,
+      and fill in the fields — including "page". Keep the commas between blocks.
+   4. Save. That's it — the new card appears on the site automatically.
+
+   (If you skip step 2, just leave "page" off the block and the card will link
+   straight to the PDF instead of an on-site reading page.)
 
    HOW TO ADD A BOURNE ENTERPRISE (OR OTHER) ARTICLE
    -------------------------------------------------
@@ -21,6 +28,7 @@
      category : short label shown in small caps  (e.g. "Research Paper")
      title    : the piece's title
      file     : path to the PDF, e.g. "writings/my-new-essay.pdf"
+     page     : on-site reading page, e.g. "reading/my-new-essay.html" (optional)
      venue    : where/when it was written (course, professor, date) — optional
      meta     : tiny tag under the card (e.g. "12 pp. · PDF") — optional
      blurb    : one or two sentences describing the piece
@@ -36,6 +44,7 @@ window.WRITINGS = [
     category: "Honors Thesis",
     title: "Exploring the Identity Formation, Socialization, and Political Engagement of Second-Generation Immigrants",
     file: "writings/second-generation-immigrants-thesis.pdf",
+    page: "reading/second-generation-immigrants-thesis.html",
     venue: "Commonwealth Honors College, UMass Amherst · Dr. Razvan Sibii · May 2024",
     meta: "~49 pp. · PDF",
     blurb: "An honors thesis on how second-generation immigrants form political identity, and how family, community, and social pressures shape the way they enter the American electorate.",
@@ -51,6 +60,7 @@ window.WRITINGS = [
     category: "Research Paper",
     title: "Media Coverage of the War in Ukraine",
     file: "writings/media-coverage-war-in-ukraine.pdf",
+    page: "reading/media-coverage-war-in-ukraine.html",
     venue: "PoliSci 393M · Prof. Scott Blinder",
     meta: "12 pp. · PDF",
     blurb: "A study of how political and market pressures shape media coverage of foreign conflict, using reporting on the Russo-Ukrainian War as a case study of the press's role in a democracy.",
@@ -66,6 +76,7 @@ window.WRITINGS = [
     category: "Policy Memo",
     title: "Finding a Sustainable Consensus: A Shared Duty to Mitigate Climate Change",
     file: "writings/climate-change-policy-memo.pdf",
+    page: "reading/climate-change-policy-memo.html",
     venue: "UMass Amherst · December 2023",
     meta: "5 pp. · PDF",
     blurb: "A policy memo making the case that climate change is a bipartisan issue, with recommendations grounded in public-opinion data on corporate accountability, regulation, and constituent outreach.",
@@ -81,6 +92,7 @@ window.WRITINGS = [
     category: "Policy Analysis",
     title: "Immigration Rights: A Stakeholders Analysis",
     file: "writings/immigration-rights-stakeholders-analysis.pdf",
+    page: "reading/immigration-rights-stakeholders-analysis.html",
     venue: "PoliSci 391PC · Prof. Scott Blinder · December 2023",
     meta: "10 pp. · PDF · Co-authored",
     blurb: "A stakeholder analysis of human rights within American immigration, weighing the competing interests and influence of Congress, U.S. Immigration and Customs Enforcement, and the American Immigration Council."
@@ -90,6 +102,7 @@ window.WRITINGS = [
     category: "Political Theory",
     title: "Three Theories of Democratic Resistance",
     file: "writings/three-theories-analysis.pdf",
+    page: "reading/three-theories-analysis.html",
     venue: "Arendt · Dahl · Milgram",
     meta: "3 pp. · PDF",
     blurb: "A comparative analysis of Hannah Arendt, Robert Dahl, and Stanley Milgram on whether — and how — citizens can resist the rise of an undemocratic leader."
@@ -99,6 +112,7 @@ window.WRITINGS = [
     category: "International Security",
     title: "Public Opinion and International Security",
     file: "writings/international-security-final.pdf",
+    page: "reading/international-security-final.html",
     venue: "International Security · Final Exam",
     meta: "3 pp. · PDF",
     blurb: "An essay on how public perception of norms, treaties, and international order shapes — and is shaped by — the security decisions of powerful states."
@@ -108,6 +122,7 @@ window.WRITINGS = [
     category: "Foreign Policy",
     title: "Making Foreign Policy: The Instruments of Power",
     file: "writings/making-foreign-policy.pdf",
+    page: "reading/making-foreign-policy.html",
     venue: "Foreign Policy coursework",
     meta: "2 pp. · PDF",
     blurb: "An essay on how states construct foreign policy through the balance of positive and negative power and the diplomatic, informational, military, and economic instruments of statecraft."
@@ -117,6 +132,7 @@ window.WRITINGS = [
     category: "Political Theory",
     title: "Obedience to Authority: A Milgram Analysis",
     file: "writings/stanley-milgram-analysis.pdf",
+    page: "reading/stanley-milgram-analysis.html",
     venue: "After Stanley Milgram",
     meta: "2 pp. · PDF",
     blurb: "A close reading of Milgram's work on obedience, examining how hierarchy and social conditioning can erode individual conscience."

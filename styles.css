@@ -1,0 +1,269 @@
+/* ==========================================================================
+   Helen Sievert — Portfolio styles (shared across all pages)
+   ========================================================================== */
+:root{
+  --paper:#f3efe3;
+  --paper-2:#ebe6d6;
+  --ink:#1c1a17;
+  --ink-soft:#4a463e;
+  --ink-faint:#787263;
+  --rule:#26241f;
+  --hair:#bdb5a0;
+  --accent:#8a1c1c;       /* oxblood / press red */
+  --accent-dk:#5e1212;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  color:var(--ink);
+  background:
+    radial-gradient(circle at 20% 0%, #00000005 0, transparent 60%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"),
+    var(--paper);
+  font-family:"Source Serif 4", Georgia, serif;
+  font-size:17px;
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:0 26px}
+a{color:inherit}
+
+.kicker{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.18em;
+  font-size:11px;font-weight:600;color:var(--accent)}
+
+/* ---------------- MASTHEAD (home) ---------------- */
+.top-furniture{display:flex;justify-content:space-between;align-items:center;
+  font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.22em;
+  font-size:10.5px;color:var(--ink-soft);padding:12px 0 8px;border-bottom:1px solid var(--hair)}
+.masthead{text-align:center;padding:18px 0 6px}
+.masthead .nameplate{font-family:"Playfair Display",serif;font-weight:900;
+  font-size:clamp(48px,8vw,104px);line-height:.94;margin:0;letter-spacing:-.015em}
+.masthead .tagline{font-family:"Oswald",sans-serif;text-transform:uppercase;
+  letter-spacing:.42em;font-size:12.5px;color:var(--ink-soft);margin:14px 0 0;font-weight:400}
+
+.dateline{display:flex;justify-content:space-between;align-items:center;gap:14px;
+  border-top:3px double var(--rule);border-bottom:3px double var(--rule);
+  margin-top:16px;padding:7px 0;font-family:"Oswald",sans-serif;text-transform:uppercase;
+  letter-spacing:.12em;font-size:11px;color:var(--ink-soft)}
+.dateline b{color:var(--ink);font-weight:600}
+
+/* ---------------- COMPACT HEADER (interior pages) ---------------- */
+.site-head{padding-bottom:6px;border-bottom:3px double var(--rule);margin-bottom:2px}
+.site-head .mini-nameplate{display:block;text-align:center;text-decoration:none;
+  font-family:"Playfair Display",serif;font-weight:900;letter-spacing:-.015em;
+  font-size:clamp(30px,5vw,46px);line-height:1;padding:12px 0 10px;color:var(--ink)}
+.site-head .mini-nameplate:hover{color:var(--accent)}
+
+/* ---------------- NAV ---------------- */
+nav.sections{display:flex;justify-content:center;flex-wrap:wrap;gap:0;
+  border-bottom:1px solid var(--hair);position:sticky;top:0;z-index:30;background:var(--paper);}
+nav.sections a{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.16em;
+  font-size:12px;font-weight:500;padding:13px 20px;text-decoration:none;color:var(--ink);
+  border-right:1px solid var(--hair);transition:background .2s,color .2s}
+nav.sections a:first-child{border-left:1px solid var(--hair)}
+nav.sections a:hover{background:var(--ink);color:var(--paper)}
+nav.sections a[aria-current="page"]{background:var(--accent);color:#fff}
+
+/* ---------------- SECTIONS ---------------- */
+section{padding:34px 0}
+.section-head{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--rule);
+  padding-bottom:6px;margin-bottom:22px}
+.section-head h2{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.14em;
+  font-weight:600;font-size:15px;margin:0}
+.section-head .meta{margin-left:auto;font-family:"Oswald",sans-serif;font-size:10.5px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint)}
+.page-intro{font-family:"Playfair Display",serif;font-size:20px;line-height:1.45;font-weight:500;
+  color:var(--ink-soft);max-width:70ch;margin:-6px 0 24px}
+
+/* ---------------- LEAD / FEATURE (home) ---------------- */
+.lead{display:grid;grid-template-columns:1.55fr 1fr;gap:36px;align-items:start;
+  border-bottom:4px double var(--rule);padding-bottom:30px}
+.lead .featured{position:relative;min-height:330px}
+.feat-slide{position:absolute;inset:0;opacity:0;transition:opacity .8s ease;pointer-events:none}
+.feat-slide.active{opacity:1;position:relative;pointer-events:auto}
+.feat-slide .kicker{display:block;margin-bottom:10px}
+.feat-slide h1{font-family:"Playfair Display",serif;font-weight:900;line-height:1.02;
+  font-size:clamp(30px,3.8vw,50px);margin:0 0 14px;letter-spacing:-.01em}
+.feat-slide h1 a{text-decoration:none}
+.feat-slide h1 a:hover{color:var(--accent)}
+.feat-slide .dek{font-size:19px;color:var(--ink-soft);font-style:italic;margin:0 0 16px;line-height:1.4}
+.feat-slide .byline{font-family:"Oswald",sans-serif;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-faint);border-top:1px solid var(--hair);
+  border-bottom:1px solid var(--hair);padding:7px 0;margin-bottom:16px}
+.feat-slide .body p{margin:0 0 12px}
+.feat-slide .body p:first-of-type::first-letter{font-family:"Playfair Display",serif;
+  font-weight:800;float:left;font-size:74px;line-height:.66;padding:8px 10px 0 0;color:var(--accent)}
+.readmore{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.14em;
+  font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent)}
+.readmore:hover{color:var(--accent-dk)}
+.feat-controls{display:flex;gap:10px;align-items:center;margin-top:20px}
+.feat-dot{width:11px;height:11px;border-radius:50%;border:1.5px solid var(--ink);
+  background:transparent;cursor:pointer;padding:0;transition:background .2s}
+.feat-dot[aria-current="true"]{background:var(--ink)}
+.feat-rail .rail-label{font-family:"Oswald",sans-serif;text-transform:uppercase;
+  letter-spacing:.16em;font-size:11px;color:var(--accent);border-bottom:2px solid var(--rule);
+  padding-bottom:6px;margin-bottom:14px;font-weight:600}
+.rail-item{padding:13px 0;border-bottom:1px solid var(--hair);cursor:pointer;transition:padding-left .2s}
+.rail-item:hover{padding-left:6px}
+.rail-item .rk{font-family:"Oswald",sans-serif;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-faint)}
+.rail-item h4{font-family:"Playfair Display",serif;font-weight:700;font-size:18px;margin:3px 0 0;line-height:1.15}
+.rail-item.on h4{color:var(--accent)}
+
+/* ---------------- WORK / CLIPS GRID ---------------- */
+.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--hair)}
+.work-card{display:flex;flex-direction:column;padding:22px 24px;border-bottom:1px solid var(--hair);border-right:1px solid var(--hair)}
+.work-card:nth-child(3n){border-right:none}
+.work-card .kicker{display:block;margin-bottom:8px}
+.work-card h3{font-family:"Playfair Display",serif;font-weight:700;font-size:22px;line-height:1.14;margin:0 0 6px}
+.work-card h3 a{text-decoration:none}
+.work-card h3 a:hover{color:var(--accent)}
+.work-card .venue{font-style:italic;color:var(--ink-faint);font-size:14px;margin:0 0 10px;line-height:1.35}
+.work-card p{margin:0 0 14px;font-size:15px;color:var(--ink-soft);line-height:1.45}
+.work-card .card-foot{margin-top:auto;display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.work-card .tag{font-family:"Oswald",sans-serif;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-faint)}
+
+/* ---------------- NEWSROOM ---------------- */
+.news-empty{border:1px dashed var(--hair);background:var(--paper-2);padding:26px 28px;
+  display:flex;gap:18px;align-items:flex-start}
+.news-empty .stamp{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.16em;
+  font-size:11px;font-weight:600;color:var(--accent);border:1.5px solid var(--accent);
+  padding:6px 12px;white-space:nowrap}
+.news-empty p{margin:0;color:var(--ink-soft);font-size:16px;line-height:1.5;max-width:64ch}
+.news-empty p b{color:var(--ink)}
+.clip-list{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--hair)}
+.clip-item{padding:20px 26px 20px 0;border-bottom:1px solid var(--hair)}
+.clip-item:nth-child(even){padding-left:26px;border-left:1px solid var(--hair)}
+.clip-item .src{font-family:"Oswald",sans-serif;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-faint);margin-bottom:5px}
+.clip-item h3{font-family:"Playfair Display",serif;font-weight:700;font-size:20px;line-height:1.15;margin:0 0 8px}
+.clip-item h3 a{text-decoration:none}
+.clip-item h3 a:hover{color:var(--accent)}
+.clip-item p{margin:0;font-size:15px;color:var(--ink-soft);line-height:1.45}
+
+/* ---------------- EXPERIENCE ---------------- */
+.exp-list{border-top:2px solid var(--rule)}
+.exp{display:grid;grid-template-columns:160px 1fr auto;gap:24px;align-items:baseline;
+  padding:20px 0;border-bottom:1px solid var(--hair)}
+.exp .years{font-family:"Oswald",sans-serif;letter-spacing:.1em;font-size:13px;color:var(--accent);text-transform:uppercase}
+.exp h3{font-family:"Playfair Display",serif;font-weight:700;font-size:22px;margin:0 0 4px}
+.exp .place{font-style:italic;color:var(--ink-soft);margin:0 0 8px}
+.exp p{margin:0;color:var(--ink-soft);font-size:15.5px;line-height:1.45;max-width:64ch}
+.exp .role-tag{font-family:"Oswald",sans-serif;font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-faint);white-space:nowrap}
+
+/* ---------------- ABOUT ---------------- */
+.about-grid{display:grid;grid-template-columns:300px 1fr;gap:40px;align-items:start}
+.about-rail .photo-frame{border:1px solid var(--rule);padding:6px;background:var(--paper-2);margin-bottom:8px}
+.about-photo{aspect-ratio:4/5;width:100%;
+  background:radial-gradient(circle at 50% 34%, #cfc7b2 0 22%, transparent 22.5%),linear-gradient(#d8d0bc,#c5bca5);
+  position:relative;overflow:hidden;background-blend-mode:multiply}
+.about-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.about-photo::before{content:"";position:absolute;inset:0;
+  background-image:radial-gradient(var(--ink) 0.6px, transparent 0.7px);
+  background-size:4px 4px;opacity:.10;mix-blend-mode:multiply}
+.about-photo.has-portrait::before{display:none}
+.about-photo .ph{position:absolute;left:50%;bottom:0;transform:translateX(-50%);
+  width:46%;height:42%;border-radius:50% 50% 0 0;background:#b3a98f}
+.about-photo.has-portrait .ph,.about-photo.has-portrait .photo-head{display:none}
+.photo-head{position:absolute;left:50%;top:30%;transform:translateX(-50%);
+  width:30%;aspect-ratio:1;border-radius:50%;background:#b3a98f;z-index:1}
+.photo-cap{font-family:"Oswald",sans-serif;font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-faint);text-align:center;margin:0 0 16px}
+.about-actions{display:flex;flex-direction:column;gap:8px;margin:0 0 18px}
+.btn{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:11px;
+  font-weight:500;text-decoration:none;text-align:center;padding:11px;border:1.5px solid var(--ink);
+  color:var(--ink);transition:background .2s,color .2s}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn.solid{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.solid:hover{background:var(--accent-dk);border-color:var(--accent-dk)}
+.interests-label{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.16em;
+  font-size:10.5px;color:var(--ink-faint);margin:0 0 8px}
+.pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:22px}
+.pill{font-family:"Oswald",sans-serif;font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+  border:1px solid var(--hair);padding:4px 10px;border-radius:20px;color:var(--ink-soft)}
+.contact-rail{display:flex;flex-direction:column;gap:0;margin-bottom:4px}
+.contact-rail a{font-family:"Oswald",sans-serif;font-size:13px;letter-spacing:.05em;
+  text-decoration:none;color:var(--ink);border-bottom:1px solid var(--hair);padding:9px 0;transition:color .2s,padding-left .2s}
+.contact-rail a:hover{color:var(--accent);padding-left:5px}
+.about-lead{font-family:"Playfair Display",serif;font-size:22px;line-height:1.4;font-weight:500;margin:0 0 16px}
+.about-body p{margin:0 0 14px;color:var(--ink-soft);max-width:66ch}
+.about-body .name{font-family:"Playfair Display",serif;font-weight:800;color:var(--ink);font-style:normal}
+.cred-list{list-style:none;padding:0;margin:20px 0 0;border-top:1px solid var(--hair)}
+.cred-list li{padding:11px 0;border-bottom:1px solid var(--hair);display:flex;gap:14px;align-items:baseline}
+.cred-list .yr{font-family:"Oswald",sans-serif;font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);white-space:nowrap;min-width:78px}
+.cred-list .txt{color:var(--ink-soft);font-size:15.5px}
+.cred-list .txt b{color:var(--ink);font-weight:600}
+
+/* ---------------- READING PAGE (a single writing sample) ---------------- */
+.article{max-width:760px;margin:0 auto;padding:40px 0 8px}
+.article-head{border-bottom:3px double var(--rule);padding-bottom:20px;margin-bottom:26px}
+.article-head .kicker{display:block;margin-bottom:12px}
+.article-head h1{font-family:"Playfair Display",serif;font-weight:900;line-height:1.05;
+  font-size:clamp(30px,4.4vw,46px);margin:0 0 14px;letter-spacing:-.01em}
+.article-head .venue{font-style:italic;color:var(--ink-soft);font-size:18px;margin:0 0 12px}
+.article-head .article-meta{font-family:"Oswald",sans-serif;font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-faint)}
+.prose{font-size:18px;line-height:1.72}
+.prose p{margin:0 0 1.15em}
+.prose > p:first-of-type::first-letter{font-family:"Playfair Display",serif;font-weight:800;
+  float:left;font-size:62px;line-height:.68;padding:6px 10px 0 0;color:var(--accent)}
+.prose h2{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.08em;
+  font-weight:600;font-size:17px;margin:1.8em 0 .7em;padding-bottom:5px;border-bottom:1px solid var(--hair)}
+.prose h3{font-family:"Playfair Display",serif;font-weight:700;font-style:italic;
+  font-size:21px;margin:1.5em 0 .5em}
+.prose h2 + p::first-letter,.prose h3 + p::first-letter{all:unset} /* drop cap only on the very first paragraph */
+.prose blockquote{margin:1.2em 0;padding:2px 0 2px 20px;border-left:3px solid var(--hair);
+  color:var(--ink-soft);font-style:italic}
+.figref{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:11px;
+  color:var(--ink-faint);border:1px dashed var(--hair);background:var(--paper-2);
+  padding:10px 14px;margin:1.2em 0;text-align:center}
+.editor-note{border:1px dashed var(--hair);background:var(--paper-2);padding:16px 18px;margin:1.6em 0;
+  font-size:15.5px;color:var(--ink-soft);line-height:1.5}
+.editor-note b{color:var(--ink)}
+.refs{margin-top:.4em}
+.refs .ref{font-size:14.5px;line-height:1.5;color:var(--ink-soft);margin:0 0 .7em;
+  padding-left:1.6em;text-indent:-1.6em} /* hanging indent */
+.toc{border:1px solid var(--hair);background:var(--paper-2);padding:18px 22px;margin:0 0 30px}
+.toc .toc-label{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.16em;
+  font-size:11px;font-weight:600;color:var(--accent);margin-bottom:10px}
+.toc ol{margin:0;padding-left:1.3em}
+.toc li{font-family:"Playfair Display",serif;font-size:16px;margin:4px 0}
+.toc a{text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.article-foot{display:flex;gap:12px;flex-wrap:wrap;border-top:3px double var(--rule);
+  margin-top:34px;padding-top:22px}
+.article-foot .btn{padding:12px 20px}
+
+/* ---------------- FOOTER ---------------- */
+footer{border-top:4px double var(--rule);margin-top:24px;padding:40px 0 60px;text-align:center}
+footer .ft-name{font-family:"Playfair Display",serif;font-weight:900;font-size:46px;line-height:1;margin:0 0 8px;letter-spacing:-.015em}
+footer .ft-tag{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.3em;
+  font-size:11px;color:var(--ink-soft);margin-bottom:24px}
+.contact-links{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:22px}
+.contact-links a{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.12em;
+  font-size:12px;text-decoration:none;padding:10px 20px;border:1px solid var(--rule);transition:background .2s,color .2s}
+.contact-links a:hover{background:var(--ink);color:var(--paper)}
+footer .colophon{font-family:"Oswald",sans-serif;font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-faint);border-top:1px solid var(--hair);
+  max-width:600px;margin:0 auto;padding-top:18px}
+
+/* reveal on load */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s ease forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .lead{grid-template-columns:1fr;gap:26px}
+  .work-grid{grid-template-columns:1fr}
+  .work-card{border-right:none}
+  .clip-list{grid-template-columns:1fr}
+  .clip-item:nth-child(even){padding-left:0;border-left:none}
+  .exp{grid-template-columns:1fr;gap:6px}
+  .about-grid{grid-template-columns:1fr;gap:26px}
+  .dateline{flex-direction:column;gap:4px}
+  nav.sections a{padding:11px 12px;font-size:11px}
+  .prose{font-size:17px}
+}
