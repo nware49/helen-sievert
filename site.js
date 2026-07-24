@@ -70,7 +70,7 @@
         '<div class="contact-links">' +
           '<a href="mailto:htsievert@gmail.com">Email</a>' +
           '<a href="https://www.linkedin.com/in/helen-sievert-5b03a2237/" target="_blank" rel="noopener">LinkedIn</a>' +
-          '<a href="' + BASE + 'writings/second-generation-immigrants-thesis.pdf" target="_blank" rel="noopener">Honors Thesis</a>' +
+          '<a href="' + BASE + 'reading/second-generation-immigrants-thesis.html">Read the Thesis</a>' +
         '</div>' +
         '<p class="colophon">Set in Playfair Display, Source Serif &amp; Oswald · ' +
           'Composed for the web · © ' + YEAR + ' Helen Sievert · All rights reserved</p>' +
