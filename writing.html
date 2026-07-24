@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selected Writing — Helen Sievert</title>
+<meta name="description" content="Selected writing by Helen Sievert — honors thesis, research papers, essays, and policy analysis, readable online.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,800;0,900;1,500;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<div class="wrap">
+  <section id="writing">
+    <div class="section-head"><h2>Selected Writing</h2><span class="meta">Thesis · Research · Essays</span></div>
+    <p class="page-intro">Each piece can be read in full below, right on the page. A link to the original document sits at the bottom of every one.</p>
+    <div class="work-grid" id="writing-grid"></div>
+  </section>
+</div>
+
+<div id="site-footer"></div>
+
+<script>window.SITE_BASE="";window.SITE_PAGE="writing";</script>
+<script src="site.js"></script>
+<script src="data.js"></script>
+<script>
+  function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
+  var WRITINGS = window.WRITINGS || [];
+  function link(w){ return w.page ? w.page : (w.file || '#'); }
+  document.getElementById('writing-grid').innerHTML = WRITINGS.map(function(w){
+    return '<article class="work-card">' +
+      '<span class="kicker">'+esc(w.category)+'</span>' +
+      '<h3><a href="'+esc(link(w))+'">'+esc(w.title)+'</a></h3>' +
+      (w.venue?'<p class="venue">'+esc(w.venue)+'</p>':'') +
+      '<p>'+esc(w.blurb)+'</p>' +
+      '<div class="card-foot"><a class="readmore" href="'+esc(link(w))+'">Read →</a>' +
+      (w.meta?'<span class="tag">'+esc(w.meta)+'</span>':'')+'</div>' +
+    '</article>';
+  }).join('');
+</script>
+
+</body>
+</html>
