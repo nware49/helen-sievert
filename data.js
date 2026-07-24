@@ -1,5 +1,5 @@
 /* ============================================================================
-   Helen Sievert — Portfolio content
+   Helen Sievert portfolio content
    ----------------------------------------------------------------------------
    This is the ONLY file you need to edit to add or change writing samples.
    You don't need to touch index.html.
@@ -11,10 +11,10 @@
    2. Build the on-site reading page from the PDF text:
           python3 tools/gen_reading.py
       (Add the piece's title/venue to tools/gen_reading.py first; it writes
-      reading/my-new-essay.html — the page readers see the full text on.)
+      reading/my-new-essay.html, the page readers see the full text on.)
    3. Copy one of the { ... } blocks in the WRITINGS list below, paste it in,
-      and fill in the fields — including "page". Keep the commas between blocks.
-   4. Save. That's it — the new card appears on the site automatically.
+      and fill in the fields, including "page". Keep the commas between blocks.
+   4. Save. That's it: the new card appears on the site automatically.
 
    (If you skip step 2, just leave "page" off the block and the card will link
    straight to the PDF instead of an on-site reading page.)
@@ -29,8 +29,8 @@
      title    : the piece's title
      file     : path to the PDF, e.g. "writings/my-new-essay.pdf"
      page     : on-site reading page, e.g. "reading/my-new-essay.html" (optional)
-     venue    : where/when it was written (course, professor, date) — optional
-     meta     : tiny tag under the card (e.g. "12 pp. · PDF") — optional
+     venue    : where/when it was written (course, professor, date), optional
+     meta     : tiny tag under the card (e.g. "12 pp. · PDF"), optional
      blurb    : one or two sentences describing the piece
      featured : true puts it in the rotating banner at the top (optional).
                 Featured pieces also need "dek" and "lede".
@@ -49,7 +49,7 @@ window.WRITINGS = [
     meta: "~49 pp. · PDF",
     blurb: "An honors thesis on how second-generation immigrants form political identity, and how family, community, and social pressures shape the way they enter the American electorate.",
     featured: true,
-    dek: "How second-generation immigrants form political identity — and how socialization shapes the way they enter the American electorate.",
+    dek: "How second-generation immigrants form political identity, and how socialization shapes the way they enter the American electorate.",
     lede: [
       "This honors thesis examines the political socialization and identity formation of second-generation immigrants, asking how family, community, and social pressures shape their political engagement and their role within the electorate.",
       "Completed through the Commonwealth Honors College at UMass Amherst, it pairs scholarship on immigration and political behavior with original analysis."
@@ -65,7 +65,7 @@ window.WRITINGS = [
     meta: "12 pp. · PDF",
     blurb: "A study of how political and market pressures shape media coverage of foreign conflict, using reporting on the Russo-Ukrainian War as a case study of the press's role in a democracy.",
     featured: true,
-    dek: "Who gets a voice in the coverage of a foreign war — and how political and market pressures decide.",
+    dek: "Who gets a voice in the coverage of a foreign war, and how political and market pressures decide.",
     lede: [
       "This paper treats media coverage of the Russo-Ukrainian War as a case study in how the press performs its democratic functions: watchdog, election forum, informing society, and representing society.",
       "It argues that political and market pressures can bend coverage away from the public it is meant to serve, with consequences for both domestic and international affairs."
@@ -81,7 +81,7 @@ window.WRITINGS = [
     meta: "5 pp. · PDF",
     blurb: "A policy memo making the case that climate change is a bipartisan issue, with recommendations grounded in public-opinion data on corporate accountability, regulation, and constituent outreach.",
     featured: true,
-    dek: "A policy case that climate change is a bipartisan issue — and a set of recommendations grounded in public opinion.",
+    dek: "A policy case that climate change is a bipartisan issue, with a set of recommendations grounded in public opinion.",
     lede: [
       "Written as a policy memo, this piece argues that a year of extreme weather has made climate change impossible to treat as a partisan question.",
       "Drawing on public-opinion polling, it recommends placing accountability on corporations, incentivizing environment-friendly regulation, and expanding outreach to constituents."
@@ -105,7 +105,7 @@ window.WRITINGS = [
     page: "reading/three-theories-analysis.html",
     venue: "Arendt · Dahl · Milgram",
     meta: "3 pp. · PDF",
-    blurb: "A comparative analysis of Hannah Arendt, Robert Dahl, and Stanley Milgram on whether — and how — citizens can resist the rise of an undemocratic leader."
+    blurb: "A comparative analysis of Hannah Arendt, Robert Dahl, and Stanley Milgram on whether, and how, citizens can resist the rise of an undemocratic leader."
   },
 
   {
@@ -115,7 +115,7 @@ window.WRITINGS = [
     page: "reading/international-security-final.html",
     venue: "International Security · Final Exam",
     meta: "3 pp. · PDF",
-    blurb: "An essay on how public perception of norms, treaties, and international order shapes — and is shaped by — the security decisions of powerful states."
+    blurb: "An essay on how public perception of norms, treaties, and international order shapes, and is shaped by, the security decisions of powerful states."
   },
 
   {
@@ -142,7 +142,7 @@ window.WRITINGS = [
 
 
 /* ============================================================================
-   JOURNALISM — The Bourne Enterprise & other published clips
+   JOURNALISM: The Bourne Enterprise & other published clips
    ----------------------------------------------------------------------------
    This list starts empty. As Helen's Bourne Enterprise articles are ready,
    add a block for each. Two ways to link a clip:

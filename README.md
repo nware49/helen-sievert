@@ -1,4 +1,4 @@
-# Helen Sievert — Portfolio
+# Helen Sievert Portfolio
 
 A portfolio website for Helen Sievert, styled as a broadsheet newspaper. It
 collects her thesis, academic writing, and (soon) her journalism, and is built
@@ -7,24 +7,24 @@ on the site itself, with a link to the original PDF at the bottom.
 
 ### Pages
 
-- **`index.html`** — the front page (masthead, featured banner, previews).
-- **`writing.html`** — the full grid of writing samples.
-- **`newsroom.html`** — journalism (Bourne Enterprise clips).
-- **`experience.html`** / **`about.html`** — experience and about/contact.
-- **`reading/<slug>.html`** — one readable page per sample (the full text).
+- **`index.html`**: the front page (masthead, featured banner, previews).
+- **`writing.html`**: the full grid of writing samples.
+- **`newsroom.html`**: journalism (Bourne Enterprise clips).
+- **`experience.html`** / **`about.html`**: experience and about/contact.
+- **`reading/<slug>.html`**: one readable page per sample (the full text).
 
 ### Shared files
 
-- **`data.js`** — the content list: writing samples and journalism clips.
+- **`data.js`**: the content list: writing samples and journalism clips.
   **This is the main file you edit to add new pieces.**
-- **`styles.css`** — all styling (shared by every page).
-- **`site.js`** — the masthead, navigation, and footer, injected into every
+- **`styles.css`**: all styling (shared by every page).
+- **`site.js`**: the masthead, navigation, and footer, injected into every
   page so they stay identical everywhere.
-- **`writings/`** — the source PDFs.
-- **`tools/gen_reading.py`** — builds the `reading/` pages from the PDFs
+- **`writings/`**: the source PDFs.
+- **`tools/gen_reading.py`**: builds the `reading/` pages from the PDFs
   (see below). `tools/fragments/` holds hand-cleaned text for two pieces whose
   PDF layout doesn't extract cleanly.
-- **`.github/workflows/deploy.yml`** — publishes the site automatically.
+- **`.github/workflows/deploy.yml`**: publishes the site automatically.
 
 ---
 
@@ -37,11 +37,11 @@ on the site itself, with a link to the original PDF at the bottom.
    ```
    python3 tools/gen_reading.py
    ```
-   This writes `reading/my-new-essay.html` — the page where readers see the
+   This writes `reading/my-new-essay.html`, the page where readers see the
    full text. (Requires `pdftotext` from **poppler-utils**:
    `apt-get install poppler-utils` or `brew install poppler`.)
 3. Open **`data.js`**, copy an existing `{ ... }` block in the `WRITINGS` list,
-   paste it in, and fill in the fields — including `page:
+   paste it in, and fill in the fields, including `page:
    "reading/my-new-essay.html"`. Keep the commas between blocks.
 4. Commit and push. The new card appears automatically after the deploy runs.
 
@@ -77,7 +77,7 @@ re-run the workflow from the **Actions** tab.
 ### Things worth updating
 
 - **Contact details** (email and LinkedIn) are placeholders. They live in
-  `site.js` (footer) and `about.html` — search for `example.com` and the
+  `site.js` (footer) and `about.html`; search for `example.com` and the
   LinkedIn `href="#"` and replace them.
 - **Portrait**: the About page uses a printed-style placeholder. To use a real
   photo, drop it in an `about/` folder and follow the comment next to

@@ -112,7 +112,7 @@ def slugify(s):
     s = re.sub(r"[^\w\s-]", "", s.lower())
     return re.sub(r"[\s_]+", "-", s).strip("-") or "sec"
 
-NUMERIC_ONLY = re.compile(r"^[\d.,%$–—\-\s]+$")   # pure numbers/percents/dashes
+NUMERIC_ONLY = re.compile("^[\\d.,%$\u2013\u2014\\-\\s]+$")   # pure numbers/percents/dashes
 
 def clean_lines(text, cfg):
     for pat, rep in cfg.get("presub", []):      # merge footnote-split sentences, etc.
@@ -192,7 +192,7 @@ def reflow(lines, cfg, headings, subheads, toc_entries=None):
             blocks.append((kind, hnorm.get(low, s))); continue
         if fig_re.match(s):
             flush(buf, blocks, mode)
-            blocks.append(("figref", s + " — see the original document")); continue
+            blocks.append(("figref", s + " (see the original document)")); continue
         buf.append(s)
         if len(s) < thresh:
             flush(buf, blocks, mode)
@@ -293,7 +293,7 @@ PAGE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{title} — Helen Sievert</title>
+<title>{title} · Helen Sievert</title>
 <meta name="description" content="{descr}">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">

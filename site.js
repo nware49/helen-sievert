@@ -3,9 +3,9 @@
    ----------------------------------------------------------------------------
    Each page includes this file and, before it, sets two globals:
 
-     window.SITE_BASE  — path back to the site root ("" for pages in the root,
+     window.SITE_BASE: path back to the site root ("" for pages in the root,
                           "../" for pages inside a sub-folder like reading/).
-     window.SITE_PAGE  — which nav item to highlight: "home", "writing",
+     window.SITE_PAGE: which nav item to highlight: "home", "writing",
                           "newsroom", "experience", or "about".
 
    The page just needs three empty hooks in its markup:
@@ -46,7 +46,7 @@
             '<p class="tagline">Political Science · Writing · Journalism</p>' +
           '</div>' +
           '<div class="dateline">' +
-            '<span>Today Is — <b>' + today + '</b></span>' +
+            '<span>Today Is <b>' + today + '</b></span>' +
             '<span>Established MMXXVI</span>' +
           '</div>' +
         '</header></div>' +
