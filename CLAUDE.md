@@ -38,6 +38,12 @@ The **bodies** of the `reading/*.html` pages are her words, extracted from the
 PDFs in `writings/`. If her writing uses an em dash, leave it exactly as written.
 Do not "correct" her prose.
 
+The same exception applies to her journalism: the **bodies** of the
+`news/*.html` pages, and the `blurb` field of each `JOURNALISM` entry in
+`data.js`, are quoted verbatim from her published Bourne Enterprise clippings
+in `articles/` (via `tools/gen_news.py`). Leave any em dash in that quoted
+text as written.
+
 Everything the site itself says in its own voice (titles, descriptions, section
 labels, buttons, notes) is yours, and must never use an em dash.
 

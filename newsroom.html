@@ -40,11 +40,14 @@
       '</div>';
   } else {
     box.innerHTML = '<div class="clip-list">' + JOURNALISM.map(function(c){
-      var href = c.url || c.file || '#';
+      var href = c.page || c.url || c.file || '#';
+      var external = !c.page && href !== '#';
       var titleHtml = (href && href!=='#')
-        ? '<a href="'+esc(href)+'" target="_blank" rel="noopener">'+esc(c.title)+'</a>'
+        ? '<a href="'+esc(href)+'"'+(external?' target="_blank" rel="noopener"':'')+'>'+esc(c.title)+'</a>'
         : esc(c.title);
-      var src = [c.publication, c.date].filter(Boolean).map(esc).join(' · ');
+      var srcParts = [c.publication, c.date];
+      if (c.coauthors) srcParts.push('with '+c.coauthors);
+      var src = srcParts.filter(Boolean).map(esc).join(' · ');
       return '<article class="clip-item">' +
         (src?'<div class="src">'+src+'</div>':'') +
         '<h3>'+titleHtml+'</h3>' +
