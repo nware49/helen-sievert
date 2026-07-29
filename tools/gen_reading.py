@@ -26,12 +26,12 @@ META = {
   "second-generation-immigrants-thesis": dict(
       category="Honors Thesis",
       title="Exploring the Identity Formation, Socialization, and Political Engagement of Second-Generation Immigrants",
-      venue="Commonwealth Honors College, UMass Amherst · Dr. Razvan Sibii · May 2024",
-      meta="Honors Thesis · ~49 pp."),
+      venue="Commonwealth Honors College, UMass Amherst · May 2024",
+      meta="Honors Thesis advised by Dr. Razvan Sibii · ~49 pp."),
   "media-coverage-war-in-ukraine": dict(
       category="Research Paper",
       title="Media Coverage of the War in Ukraine",
-      venue="PoliSci 393M · Prof. Scott Blinder",
+      venue="PoliSci 393M",
       meta="Research Paper · 12 pp."),
   "climate-change-policy-memo": dict(
       category="Policy Memo",
@@ -41,7 +41,7 @@ META = {
   "immigration-rights-stakeholders-analysis": dict(
       category="Policy Analysis",
       title="Immigration Rights: A Stakeholders Analysis",
-      venue="PoliSci 391PC · Prof. Scott Blinder · December 2023 · Co-authored",
+      venue="PoliSci 391PC · December 2023 · Co-authored",
       meta="Policy Analysis · 10 pp."),
   "three-theories-analysis": dict(
       category="Political Theory",
@@ -51,12 +51,12 @@ META = {
   "international-security-final": dict(
       category="International Security",
       title="Public Opinion and International Security",
-      venue="International Security · Final Examination",
+      venue="International Security",
       meta="Exam Essay · 3 pp."),
   "making-foreign-policy": dict(
       category="Foreign Policy",
       title="Making Foreign Policy: The Instruments of Power",
-      venue="Foreign Policy coursework · Essay 1",
+      venue="Foreign Policy",
       meta="Essay · 2 pp."),
   "stanley-milgram-analysis": dict(
       category="Political Theory",
