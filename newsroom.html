@@ -48,8 +48,10 @@
       var srcParts = [c.publication, c.date];
       if (c.coauthors) srcParts.push('with '+c.coauthors);
       var src = srcParts.filter(Boolean).map(esc).join(' · ');
-      return '<article class="clip-item">' +
-        (src?'<div class="src">'+src+'</div>':'') +
+      var pin = c.pinned ? '<span class="pin">Pinned</span>' : '';
+      var srcLine = (pin || src) ? '<div class="src">'+pin+(pin&&src?' · ':'')+src+'</div>' : '';
+      return '<article class="clip-item'+(c.pinned?' pinned':'')+'">' +
+        srcLine +
         '<h3>'+titleHtml+'</h3>' +
         (c.blurb?'<p>'+esc(c.blurb)+'</p>':'') +
       '</article>';
