@@ -139,7 +139,6 @@ section{padding:34px 0}
 .clip-item .src{font-family:"Oswald",sans-serif;font-size:10px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--ink-faint);margin-bottom:5px}
 .clip-item .pin{color:var(--accent);font-weight:600}
-.clip-item.pinned{background:linear-gradient(var(--paper-2),var(--paper-2)) no-repeat left top/3px 100%}
 .clip-item h3{font-family:"Playfair Display",serif;font-weight:700;font-size:20px;line-height:1.15;margin:0 0 8px}
 .clip-item h3 a{text-decoration:none}
 .clip-item h3 a:hover{color:var(--accent)}
