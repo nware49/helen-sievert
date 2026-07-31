@@ -17,14 +17,14 @@
 
 <div class="wrap">
 
-  <!-- LEAD / FEATURE -->
+  <!-- LEAD / FEATURE (newsroom clips) -->
   <section id="feature">
     <div class="lead reveal">
       <div class="featured" id="featured">
         <div class="feat-controls" id="dots"></div>
       </div>
       <aside class="feat-rail">
-        <div class="rail-label">Also Featured</div>
+        <div class="rail-label">Also in the Newsroom</div>
         <div id="rail"></div>
       </aside>
     </div>
@@ -39,23 +39,15 @@
     <div class="work-grid" id="writing-preview-grid"></div>
   </section>
 
-  <!-- FROM THE NEWSROOM (pinned clips) -->
-  <section id="newsroom-preview">
-    <div class="section-head">
-      <h2>From the Newsroom</h2>
-      <span class="meta"><a href="newsroom.html" class="readmore">See all newsroom →</a></span>
-    </div>
-    <div id="newsroom-preview-body"></div>
-  </section>
-
   <!-- ABOUT TEASER -->
   <section>
-    <div class="section-head"><h2>About</h2><span class="meta">Who's Writing</span></div>
-    <p class="page-intro">Helen Sievert's work sits where research, reporting, and public service meet. It spans an honors thesis on the political engagement of second-generation immigrants, a newsroom, a law office, and a statehouse internship on Cape Cod.</p>
+    <div class="section-head"><h2>About</h2></div>
+    <p class="page-intro">Helen Sievert's work sits where research, reporting, and public service meet. It spans an honors thesis on the political engagement of second-generation immigrants, a newsroom, a law office, and an internship with Massachusetts legislature.</p>
     <div style="display:flex;gap:12px;flex-wrap:wrap">
       <a class="btn" href="about.html">About &amp; Contact →</a>
       <a class="btn" href="experience.html">Experience →</a>
-      <a class="btn solid" href="reading/second-generation-immigrants-thesis.html">Read the Honors Thesis →</a>
+      <a class="btn solid" href="writing.html">Browse All Writing →</a>
+      <a class="btn solid" href="newsroom.html">Read News Articles →</a>
     </div>
   </section>
 
@@ -69,38 +61,40 @@
 <script>
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
   var WRITINGS = window.WRITINGS || [];
+  var JOURNALISM = window.JOURNALISM || [];
   function link(w){ return w.page ? w.page : (w.file || '#'); }
+  function clipLink(c){ return c.page || c.url || '#'; }
 
-  // ---- Feature carousel (from the "featured" writing samples) ----
+  // ---- Feature carousel (newsroom clips: pinned first, then the newest) ----
   (function(){
-    var featured = WRITINGS.filter(function(w){ return w.featured; });
+    var featured = JOURNALISM.slice(0, 5);
     var featuredWrap = document.getElementById('featured');
     var dotsWrap = document.getElementById('dots');
     var rail = document.getElementById('rail');
     if(!featured.length){ document.getElementById('feature').style.display='none'; return; }
 
-    featured.forEach(function(w, i){
+    featured.forEach(function(c, i){
+      var href = clipLink(c);
+      var byline = [c.date, c.coauthors?('with '+c.coauthors):''].filter(Boolean).join(' · ');
       var slide = document.createElement('div');
       slide.className = 'feat-slide' + (i===0?' active':'');
-      var body = (w.lede||[]).map(function(p){ return '<p>'+esc(p)+'</p>'; }).join('');
       slide.innerHTML =
-        '<span class="kicker">'+esc(w.category)+'</span>' +
-        '<h1><a href="'+esc(link(w))+'">'+esc(w.title)+'</a></h1>' +
-        (w.dek?'<p class="dek">'+esc(w.dek)+'</p>':'') +
-        (w.venue?'<div class="byline">'+esc(w.venue)+'</div>':'') +
-        '<div class="body">'+body+'</div>' +
-        '<a class="readmore" href="'+esc(link(w))+'">Read the piece →</a>';
+        '<span class="kicker">'+esc(c.publication||'The Enterprise')+'</span>' +
+        '<h1><a href="'+esc(href)+'">'+esc(c.title)+'</a></h1>' +
+        (byline?'<div class="byline">'+esc(byline)+'</div>':'') +
+        '<div class="body">'+(c.blurb?'<p>'+esc(c.blurb)+'</p>':'')+'</div>' +
+        '<a class="readmore" href="'+esc(href)+'">Read the article →</a>';
       featuredWrap.insertBefore(slide, dotsWrap);
 
       var b = document.createElement('button');
-      b.className='feat-dot'; b.setAttribute('aria-label','Feature '+(i+1));
+      b.className='feat-dot'; b.setAttribute('aria-label','Story '+(i+1));
       b.addEventListener('click', function(){ go(i); restart(); });
       dotsWrap.appendChild(b);
 
       var r = document.createElement('div');
       r.className='rail-item';
-      r.innerHTML='<div class="rk">'+esc(w.category)+'</div><h4>'+esc(w.title)+'</h4>';
-      r.addEventListener('click', function(){ location.href = link(w); });
+      r.innerHTML='<div class="rk">'+esc(c.date||'')+'</div><h4>'+esc(c.title)+'</h4>';
+      r.addEventListener('click', function(){ location.href = href; });
       rail.appendChild(r);
     });
 
@@ -134,30 +128,6 @@
         (w.meta?'<span class="tag">'+esc(w.meta)+'</span>':'')+'</div>' +
       '</article>';
     }).join('');
-  })();
-
-  // ---- From the Newsroom (pinned clips) ----
-  (function(){
-    var pinned = (window.JOURNALISM || []).filter(function(c){ return c.pinned; });
-    var sec = document.getElementById('newsroom-preview');
-    var box = document.getElementById('newsroom-preview-body');
-    if(!pinned.length){ if(sec) sec.style.display='none'; return; }
-    box.innerHTML = '<div class="clip-list">' + pinned.map(function(c){
-      var href = c.page || c.url || '#';
-      var external = !c.page && href!=='#';
-      var titleHtml = (href&&href!=='#')
-        ? '<a href="'+esc(href)+'"'+(external?' target="_blank" rel="noopener"':'')+'>'+esc(c.title)+'</a>'
-        : esc(c.title);
-      var srcParts = [c.publication, c.date];
-      if(c.coauthors) srcParts.push('with '+c.coauthors);
-      var src = srcParts.filter(Boolean).map(esc).join(' · ');
-      var pin = '<span class="pin">Pinned</span>';
-      return '<article class="clip-item pinned">' +
-        '<div class="src">'+pin+(src?' · '+src:'')+'</div>' +
-        '<h3>'+titleHtml+'</h3>' +
-        (c.blurb?'<p>'+esc(c.blurb)+'</p>':'') +
-      '</article>';
-    }).join('') + '</div>';
   })();
 </script>
 

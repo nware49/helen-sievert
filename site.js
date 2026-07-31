@@ -43,7 +43,7 @@
           furniture +
           '<div class="masthead">' +
             '<h1 class="nameplate">Helen Sievert</h1>' +
-            '<p class="tagline">Political Science · Writing · Journalism</p>' +
+            '<p class="tagline">Knowledge is power.<br>Power is in the pen.</p>' +
           '</div>' +
           '<div class="dateline">' +
             '<span>Today Is <b>' + today + '</b></span>' +
@@ -70,7 +70,7 @@
         '<div class="contact-links">' +
           '<a href="mailto:htsievert@gmail.com">Email</a>' +
           '<a href="https://www.linkedin.com/in/helen-sievert-5b03a2237/" target="_blank" rel="noopener">LinkedIn</a>' +
-          '<a href="' + BASE + 'reading/second-generation-immigrants-thesis.html">Read the Thesis</a>' +
+          '<a href="' + BASE + 'writing.html">Browse All Works</a>' +
         '</div>' +
         '<p class="colophon">Set in Playfair Display, Source Serif &amp; Oswald · ' +
           'Composed for the web · © ' + YEAR + ' Helen Sievert · All rights reserved</p>' +
