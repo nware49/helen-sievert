@@ -40,7 +40,7 @@ a{color:inherit}
 .masthead .nameplate{font-family:"Playfair Display",serif;font-weight:900;
   font-size:clamp(48px,8vw,104px);line-height:.94;margin:0;letter-spacing:-.015em}
 .masthead .tagline{font-family:"Oswald",sans-serif;text-transform:uppercase;
-  letter-spacing:.42em;font-size:12.5px;color:var(--ink-soft);margin:14px 0 0;font-weight:400}
+  letter-spacing:.42em;font-size:12.5px;line-height:1.9;color:var(--ink-soft);margin:14px 0 0;font-weight:400}
 
 .dateline{display:flex;justify-content:space-between;align-items:center;gap:14px;
   border-top:3px double var(--rule);border-bottom:3px double var(--rule);
@@ -79,9 +79,12 @@ section{padding:34px 0}
 /* ---------------- LEAD / FEATURE (home) ---------------- */
 .lead{display:grid;grid-template-columns:1.55fr 1fr;gap:36px;align-items:start;
   border-bottom:4px double var(--rule);padding-bottom:30px}
-.lead .featured{position:relative;min-height:330px}
-.feat-slide{position:absolute;inset:0;opacity:0;transition:opacity .8s ease;pointer-events:none}
-.feat-slide.active{opacity:1;position:relative;pointer-events:auto}
+/* The slides are stacked in one grid cell, so the feature block is always as
+   tall as its tallest story and the page does not resize as it cycles. */
+.lead .featured{display:grid;grid-template-rows:1fr auto;min-height:330px}
+.feat-slide{grid-area:1/1;align-self:start;opacity:0;visibility:hidden;
+  transition:opacity .8s ease,visibility .8s ease;pointer-events:none}
+.feat-slide.active{opacity:1;visibility:visible;pointer-events:auto}
 .feat-slide .kicker{display:block;margin-bottom:10px}
 .feat-slide h1{font-family:"Playfair Display",serif;font-weight:900;line-height:1.02;
   font-size:clamp(30px,3.8vw,50px);margin:0 0 14px;letter-spacing:-.01em}
@@ -97,7 +100,7 @@ section{padding:34px 0}
 .readmore{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.14em;
   font-size:11px;font-weight:600;color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent)}
 .readmore:hover{color:var(--accent-dk)}
-.feat-controls{display:flex;gap:10px;align-items:center;margin-top:20px}
+.feat-controls{grid-area:2/1;display:flex;gap:10px;align-items:center;margin-top:20px}
 .feat-dot{width:11px;height:11px;border-radius:50%;border:1.5px solid var(--ink);
   background:transparent;cursor:pointer;padding:0;transition:background .2s}
 .feat-dot[aria-current="true"]{background:var(--ink)}
@@ -124,6 +127,8 @@ section{padding:34px 0}
 .work-card .card-foot{margin-top:auto;display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .work-card .tag{font-family:"Oswald",sans-serif;font-size:10px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--ink-faint)}
+.section-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.section-actions .btn{padding:12px 22px}
 
 /* ---------------- NEWSROOM ---------------- */
 .news-empty{border:1px dashed var(--hair);background:var(--paper-2);padding:26px 28px;
@@ -157,7 +162,7 @@ section{padding:34px 0}
 
 /* ---------------- ABOUT ---------------- */
 .about-grid{display:grid;grid-template-columns:300px 1fr;gap:40px;align-items:start}
-.about-rail .photo-frame{border:1px solid var(--rule);padding:6px;background:var(--paper-2);margin-bottom:8px}
+.about-rail .photo-frame{border:1px solid var(--rule);padding:6px;background:var(--paper-2);margin-bottom:18px}
 .about-photo{aspect-ratio:4/5;width:100%;
   background:radial-gradient(circle at 50% 34%, #cfc7b2 0 22%, transparent 22.5%),linear-gradient(#d8d0bc,#c5bca5);
   position:relative;overflow:hidden;background-blend-mode:multiply}
