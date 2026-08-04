@@ -176,7 +176,7 @@ window.JOURNALISM = [
   {
     title: "Barnstable County Entomologist Breaks Down Tick Risks, Offers Safety Tips",
     pinned: true,
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 10, 2026",
     url: "https://www.capenews.net/regional_news/barnstable-county-entomologist-breaks-down-tick-risks-offers-safety-tips/article_e6312311-d599-45f8-b868-a86e9c7fbade.html",
     page: "news/barnstable-county-entomologist-breaks-down-tick-risks-offers-safety-tips.html",
@@ -186,7 +186,7 @@ window.JOURNALISM = [
   {
     title: "Nancy Jack Todd Leaves Legacy Of Ecological Sustainability",
     pinned: true,
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 13, 2025",
     url: "https://www.capenews.net/falmouth/news/nancy-jack-todd-leaves-legacy-of-ecological-sustainability/article_d1ca26e6-e4ab-4bf4-927b-ef8c588efe52.html",
     page: "news/nancy-jack-todd-leaves-legacy-of-ecological-sustainability.html",
@@ -195,7 +195,7 @@ window.JOURNALISM = [
 
   {
     title: "Collision On Scenic Highway Results In Three Transports To Hospitals",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 26, 2026",
     url: "https://www.capenews.net/police_fire/collision-on-scenic-highway-results-in-three-transports-to-hospitals/article_a22849e1-cbb8-40b6-a489-79c2764fbfb0.html",
     page: "news/collision-on-scenic-highway-results-in-three-transports-to-hospitals.html",
@@ -204,7 +204,7 @@ window.JOURNALISM = [
 
   {
     title: "No Injuries Reported In Seacoast Shores Boulevard House Fire",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 26, 2026",
     url: "https://www.capenews.net/police_fire/no-injuries-reported-in-seacoast-shores-boulevard-house-fire/article_7d693f38-6c52-4cef-9b1d-847d5cc3f993.html",
     page: "news/no-injuries-reported-in-seacoast-shores-boulevard-house-fire.html",
@@ -213,7 +213,7 @@ window.JOURNALISM = [
 
   {
     title: "Fire At Red Brook Home Results In Fatality",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 25, 2026",
     url: "https://www.capenews.net/falmouth/news/fire-at-red-brook-home-results-in-fatality/article_a87e9d79-3513-426e-9205-d7757d571cf9.html",
     page: "news/fire-at-red-brook-home-results-in-fatality.html",
@@ -222,7 +222,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Hears Update On MOU Progress",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 24, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-hears-update-on-mou-progress/article_9c8d7286-f9d2-4e3e-b5ee-bd7b549344ff.html",
     page: "news/bourne-select-board-hears-update-on-mou-progress.html",
@@ -231,7 +231,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Reconfirms Cataumet Fish Liquor License Legislation Language",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 24, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-reconfirms-cataumet-fish-liquor-license-legislation-language/article_05686be4-6dc2-43bc-ad3a-cee45a2c2586.html",
     page: "news/bourne-select-board-reconfirms-cataumet-fish-liquor-license-legislation-language.html",
@@ -240,7 +240,7 @@ window.JOURNALISM = [
 
   {
     title: "Sampson Selected By Bourne Select Board As New Town Moderator",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 24, 2026",
     url: "https://www.capenews.net/bourne/news/sampson-selected-by-bourne-select-board-as-new-town-moderator/article_f2912034-4aa3-4de6-b85e-7863df23d2e3.html",
     page: "news/sampson-selected-by-bourne-select-board-as-new-town-moderator.html",
@@ -249,7 +249,7 @@ window.JOURNALISM = [
 
   {
     title: "Watershed Permits Process Continues For Bourne Select Board",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 24, 2026",
     url: "https://www.capenews.net/bourne/news/watershed-permits-process-continues-for-bourne-select-board/article_f75feb22-4954-4f3d-97cf-207c4eb62867.html",
     page: "news/watershed-permits-process-continues-for-bourne-select-board.html",
@@ -258,7 +258,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Prepares Questions, Comments For MassDOT Public Hearing",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 22, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-prepares-questions-comments-for-massdot-public-hearing/article_50271b31-46e6-4221-b660-a479faac7254.html",
     page: "news/bourne-select-board-prepares-questions-comments-for-massdot-public-hearing.html",
@@ -267,7 +267,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Historical Commission Approves Three Remodeling Requests",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 17, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-historical-commission-approves-three-remodeling-requests/article_5beb21ae-006b-4ab8-a471-940a33d58143.html",
     page: "news/bourne-historical-commission-approves-three-remodeling-requests.html",
@@ -276,7 +276,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Historical Commission Discusses Demolitions In Historic Taylor's Point",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 17, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-historical-commission-discusses-demolitions-in-historic-taylors-point/article_a19a01da-369a-4c04-9df9-e774df96839f.html",
     page: "news/bourne-historical-commission-discusses-demolitions-in-historic-taylors-point.html",
@@ -285,7 +285,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Historical Commission Welcomes New Member",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 17, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-historical-commission-welcomes-new-member/article_55a85420-cb7e-4db5-872b-d3be07f99b29.html",
     page: "news/bourne-historical-commission-welcomes-new-member.html",
@@ -294,7 +294,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Approves DPW's Chapter 90 Request For FY27",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 17, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-approves-dpws-chapter-90-request-for-fy27/article_b855f01f-a1b2-46e3-951e-d362d46b2226.html",
     page: "news/bourne-select-board-approves-dpws-chapter-90-request-for-fy27.html",
@@ -303,7 +303,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Approves Additional Accessible Parking Spot At Community Center",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 15, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-approves-additional-accessible-parking-spot-at-community-center/article_0824e0ac-4a10-497d-a858-169224d2fa9d.html",
     page: "news/bourne-select-board-approves-additional-accessible-parking-spot-at-community-center.html",
@@ -312,7 +312,7 @@ window.JOURNALISM = [
 
   {
     title: "Local Donor, Recipient Raise Awareness For Organ Donations",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 10, 2026",
     url: "https://www.capenews.net/bourne/news/local-donor-recipient-raise-awareness-for-organ-donations/article_da8c33cc-c01c-431b-bc53-060f29e1329a.html",
     page: "news/local-donor-recipient-raise-awareness-for-organ-donations.html",
@@ -321,7 +321,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Commission On Disabilities Approves Funds For Basketball Court Accessibility",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 10, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-commission-on-disabilities-approves-funds-for-basketball-court-accessibility/article_4846ff24-0af6-423c-ba68-15e348c255c2.html",
     page: "news/bourne-commission-on-disabilities-approves-funds-for-basketball-court-accessibility.html",
@@ -330,7 +330,7 @@ window.JOURNALISM = [
 
   {
     title: "County Advances Plans For Regional Compost Facility",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 10, 2026",
     url: "https://www.capenews.net/regional_news/county-advances-plans-for-regional-compost-facility/article_fc0aab2f-8016-4c9a-8ca1-0a87a2559a81.html",
     page: "news/county-advances-plans-for-regional-compost-facility.html",
@@ -339,7 +339,7 @@ window.JOURNALISM = [
 
   {
     title: "Food Trucks Spark Debate At Bourne Select Board",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 10, 2026",
     url: "https://www.capenews.net/bourne/news/food-trucks-spark-debate-at-bourne-select-board/article_c8610dc9-786d-48ed-a7f2-62df6cdce70c.html",
     page: "news/food-trucks-spark-debate-at-bourne-select-board.html",
@@ -348,7 +348,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Deliberates On Watershed Permits Process",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 3, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-deliberates-on-watershed-permits-process/article_183f61e5-ad50-4298-855d-6d7c355efba4.html",
     page: "news/bourne-select-board-deliberates-on-watershed-permits-process.html",
@@ -357,7 +357,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Discusses MOU For Bridges Project, Requests Information For MassDOT Meeting",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 3, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-discusses-mou-for-bridges-project-requests-information-for-massdot-meeting/article_0d793a4d-c6bc-45ec-acd9-c6bfe36e9b66.html",
     page: "news/bourne-select-board-discusses-mou-for-bridges-project-requests-information-for-massdot-meeting.html",
@@ -366,7 +366,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Hears HCA Updates, Supports Liquor License Legislation",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 3, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-hears-hca-updates-supports-liquor-license-legislation/article_5588de6a-b790-44c1-9e0c-56b7bb35d3b3.html",
     page: "news/bourne-select-board-hears-hca-updates-supports-liquor-license-legislation.html",
@@ -375,7 +375,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Hears HCA Updates",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 3, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-hears-hca-updates/article_67e8950e-a8f8-4759-8044-c3b42d7a66cb.html",
     page: "news/bourne-select-board-hears-hca-updates.html",
@@ -384,7 +384,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board To File For Another Liquor License",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 3, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-to-file-for-another-liquor-license/article_348a8c31-e9c8-4490-affd-59c72896129c.html",
     page: "news/bourne-select-board-to-file-for-another-liquor-license.html",
@@ -393,7 +393,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Waives First Right Of Refusal",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 3, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-waives-first-right-of-refusal/article_19b2a42b-9e67-412b-95f8-c12cce880ccf.html",
     page: "news/bourne-select-board-waives-first-right-of-refusal.html",
@@ -402,7 +402,7 @@ window.JOURNALISM = [
 
   {
     title: "Road Closures Announced For Bourne's Fourth Of July Parade, Police Chief Shares Safety Reminders",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 3, 2026",
     url: "https://www.capenews.net/bourne/news/road-closures-announced-for-bournes-fourth-of-july-parade-police-chief-shares-safety-reminders/article_a537ae3a-1a6c-4bef-958f-667a56ebd620.html",
     page: "news/road-closures-announced-for-bournes-fourth-of-july-parade-police-chief-shares-safety-reminders.html",
@@ -411,7 +411,7 @@ window.JOURNALISM = [
 
   {
     title: "Patuisset Beach Reopens After Testing Meets 'Safe And Acceptable Standards'",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 1, 2026",
     url: "https://www.capenews.net/bourne/news/patuisset-beach-reopens-after-testing-meets-safe-and-acceptable-standards/article_bf2e609a-850a-412d-baf5-cbdd9e66c84c.html",
     page: "news/patuisset-beach-reopens-after-testing-meets-safe-and-acceptable-standards.html",
@@ -420,7 +420,7 @@ window.JOURNALISM = [
 
   {
     title: "Barry Johnson Receives Citation From Barnstable County Commissioners",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "July 1, 2026",
     url: "https://www.capenews.net/bourne/news/barry-johnson-receives-citation-from-barnstable-county-commissioners/article_b9510cab-3d3c-4289-9870-9dbff1b82f68.html",
     page: "news/barry-johnson-receives-citation-from-barnstable-county-commissioners.html",
@@ -429,7 +429,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne To Open Cooling Center Due To Hot Temperatures",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 29, 2026",
     url: "https://www.capenews.net/bourne/briefs/bourne-to-open-cooling-center-due-to-hot-temperatures/article_34b623fc-6e85-4767-b7c9-194478888962.html",
     page: "news/bourne-to-open-cooling-center-due-to-hot-temperatures.html",
@@ -438,7 +438,7 @@ window.JOURNALISM = [
 
   {
     title: "No Injuries Reported After Two-Vehicle Accident On Teaticket Highway",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 28, 2026",
     url: "https://www.capenews.net/police_fire/no-injuries-reported-after-two-vehicle-accident-on-teaticket-highway/article_1c63e134-2b81-4871-aa11-21ad7b45d82e.html",
     page: "news/no-injuries-reported-after-two-vehicle-accident-on-teaticket-highway.html",
@@ -447,7 +447,7 @@ window.JOURNALISM = [
 
   {
     title: "Three-Car Accident On MacArthur Boulevard Southbound",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 28, 2026",
     url: "https://www.capenews.net/police_fire/three-car-accident-on-macarthur-boulevard-southbound/article_6344c088-2fd4-449a-925a-5d177a21ec4c.html",
     page: "news/three-car-accident-on-macarthur-boulevard-southbound.html",
@@ -456,7 +456,7 @@ window.JOURNALISM = [
 
   {
     title: "Vehicle Crashes Into Redemption Center At Kenyon’s Market",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 27, 2026",
     url: "https://www.capenews.net/police_fire/vehicle-crashes-into-redemption-center-at-kenyon-s-market/article_3f6fe250-ba2c-4e18-9ce9-9a70ee0385ec.html",
     page: "news/vehicle-crashes-into-redemption-center-at-kenyons-market.html",
@@ -465,7 +465,7 @@ window.JOURNALISM = [
 
   {
     title: "Falmouth Fire Dept. Responds To Two-Car Accident On Rt. 28",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 27, 2026",
     url: "https://www.capenews.net/police_fire/falmouth-fire-dept-responds-to-two-car-accident-on-rt-28/article_4e99fbd9-7671-4b16-aadc-0b780212cdd2.html",
     page: "news/falmouth-fire-dept-responds-to-two-car-accident-on-rt-28.html",
@@ -474,7 +474,7 @@ window.JOURNALISM = [
 
   {
     title: "Car Versus Motorbike Accident On Falmouth Road",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 27, 2026",
     url: "https://www.capenews.net/police_fire/car-versus-motorbike-accident-on-falmouth-road/article_7e25ef46-d27a-4e19-9e3e-571a7e651fd1.html",
     page: "news/car-versus-motorbike-accident-on-falmouth-road.html",
@@ -483,7 +483,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Health Board Advocates Against Ultra-Processed Foods",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 26, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-health-board-advocates-against-ultra-processed-foods/article_2e26a668-4d56-4a93-b167-8d511f4fabc7.html",
     page: "news/bourne-health-board-advocates-against-ultra-processed-foods.html",
@@ -492,7 +492,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Sewer Commissioners Continue To Discuss Intermunicipal Agreement",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 26, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-sewer-commissioners-continue-to-discuss-intermunicipal-agreement/article_9f46d565-29b0-4792-907d-86d4536cbdb9.html",
     page: "news/bourne-sewer-commissioners-continue-to-discuss-intermunicipal-agreement.html",
@@ -501,7 +501,7 @@ window.JOURNALISM = [
 
   {
     title: "Elevated Bacteria Levels Close Patuisset Beach",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 26, 2026",
     url: "https://www.capenews.net/bourne/news/elevated-bacteria-levels-close-patuisset-beach/article_353f9c8f-91de-4617-8bf8-82bf13965ee5.html",
     page: "news/elevated-bacteria-levels-close-patuisset-beach.html",
@@ -510,7 +510,7 @@ window.JOURNALISM = [
 
   {
     title: "Updates To Buzzards Bay Wastewater Treatment Facility Complete",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 26, 2026",
     url: "https://www.capenews.net/bourne/news/updates-to-buzzards-bay-wastewater-treatment-facility-complete/article_616d292c-ff84-4b03-a15e-daedd8f984d0.html",
     page: "news/updates-to-buzzards-bay-wastewater-treatment-facility-complete.html",
@@ -519,7 +519,7 @@ window.JOURNALISM = [
 
   {
     title: "Local, State Officials Take A Ride On Potential MBTA Rail Service Line",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 24, 2026",
     url: "https://www.capenews.net/bourne/news/local-state-officials-take-a-ride-on-potential-mbta-rail-service-line/article_8c563ac6-893c-4efa-b89b-2659b1915b83.html",
     page: "news/local-state-officials-take-a-ride-on-potential-mbta-rail-service-line.html",
@@ -528,7 +528,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Reviews Special Legislation For Liquor Licenses",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 19, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-reviews-special-legislation-for-liquor-licenses/article_793c01b9-99e3-466c-a65b-27cc24a4b189.html",
     page: "news/bourne-select-board-reviews-special-legislation-for-liquor-licenses.html",
@@ -537,7 +537,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Weighs Exercising Right Of First Refusal",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 19, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-weighs-exercising-right-of-first-refusal/article_6a06db19-0b5b-4832-a5a3-cc91f852611a.html",
     page: "news/bourne-select-board-weighs-exercising-right-of-first-refusal.html",
@@ -546,7 +546,7 @@ window.JOURNALISM = [
 
   {
     title: "Pocasset Water Quality Coalition Advocates For Stricter Cesspool Regulations",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 19, 2026",
     url: "https://www.capenews.net/bourne/news/pocasset-water-quality-coalition-advocates-for-stricter-cesspool-regulations/article_8b528a4e-edc0-4fde-a8d3-767b05df5bba.html",
     page: "news/pocasset-water-quality-coalition-advocates-for-stricter-cesspool-regulations.html",
@@ -555,7 +555,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Briefs: Marina Update, Approves BANs Sale, Supports SAFER Grant",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 17, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-briefs-marina-update-approves-bans-sale-supports-safer-grant/article_8182614e-f591-4999-a073-d027acb64da7.html",
     page: "news/bourne-select-board-briefs-marina-update-approves-bans-sale-supports-safer-grant.html",
@@ -564,7 +564,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Bike, Pedestrian Committee Updates Select Board",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 12, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-bike-pedestrian-committee-updates-select-board/article_239ed32b-feea-4795-9863-487c3aed9c9a.html",
     page: "news/bourne-bike-pedestrian-committee-updates-select-board.html",
@@ -573,7 +573,7 @@ window.JOURNALISM = [
 
   {
     title: "Community Input Emphasized In Replacement Of Bourne, Sagamore Bridges",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 12, 2026",
     url: "https://www.capenews.net/bourne/news/community-input-emphasized-in-replacement-of-bourne-sagamore-bridges/article_f7fa7ed5-8b23-4bb9-a5b0-b0413c6a8bb0.html",
     page: "news/community-input-emphasized-in-replacement-of-bourne-sagamore-bridges.html",
@@ -582,7 +582,7 @@ window.JOURNALISM = [
 
   {
     title: "New Hen Cove Boat Ramp Slated For Completion",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 12, 2026",
     url: "https://www.capenews.net/bourne/news/new-hen-cove-boat-ramp-slated-for-completion/article_4295125d-3030-49d4-838e-4c80e6c426c2.html",
     page: "news/new-hen-cove-boat-ramp-slated-for-completion.html",
@@ -591,7 +591,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Town Counsel Clarifies Appointment Process For Town Moderator",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 10, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-town-counsel-clarifies-appointment-process-for-town-moderator/article_31150244-3655-409d-ae5e-46a29448c7c0.html",
     page: "news/bourne-town-counsel-clarifies-appointment-process-for-town-moderator.html",
@@ -600,7 +600,7 @@ window.JOURNALISM = [
 
   {
     title: "Big Brother Big Sister Matches Celebrate Year of Mentorship",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 5, 2026",
     url: "https://www.capenews.net/bourne/news/big-brother-big-sister-matches-celebrate-year-of-mentorship/article_549c14f8-9f33-4000-9f68-f1b16a756660.html",
     page: "news/big-brother-big-sister-matches-celebrate-year-of-mentorship.html",
@@ -609,7 +609,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Selected For Living Shorelines Project To Restore Salt Marsh",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 5, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-selected-for-living-shorelines-project-to-restore-salt-marsh/article_173febe8-ee0d-4228-af3f-bb78b73ff351.html",
     page: "news/bourne-selected-for-living-shorelines-project-to-restore-salt-marsh.html",
@@ -618,7 +618,7 @@ window.JOURNALISM = [
 
   {
     title: "Survey Seeks Input From Bourne Residents Ages 60+ On Community Needs",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "June 3, 2026",
     url: "https://www.capenews.net/bourne/briefs/survey-seeks-input-from-bourne-residents-ages-60-on-community-needs/article_027ba0b6-08d7-43b3-879f-13a03da04a43.html",
     page: "news/survey-seeks-input-from-bourne-residents-ages-60-on-community-needs.html",
@@ -627,7 +627,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Sewer Commission Discusses Intermunicipal Agreement, Wastewater Treatment Facility",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 29, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-sewer-commission-discusses-intermunicipal-agreement-wastewater-treatment-facility/article_8ddd5b7f-1866-4b75-906b-3220da7e47d0.html",
     page: "news/bourne-sewer-commission-discusses-intermunicipal-agreement-wastewater-treatment-facility.html",
@@ -636,7 +636,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Sewer Commissioners Vote To Reappoint Officers",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 29, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-sewer-commissioners-vote-to-reappoint-officers/article_cde97fcc-e4d1-462d-82f9-6f619d41e272.html",
     page: "news/bourne-sewer-commissioners-vote-to-reappoint-officers.html",
@@ -645,7 +645,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Town Counsel Confirms Minimal Impact Of Pathway Construction At Keith Field",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 29, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-town-counsel-confirms-minimal-impact-of-pathway-construction-at-keith-field/article_1b3f4663-7a64-46ce-b766-2217f686e3c5.html",
     page: "news/bourne-town-counsel-confirms-minimal-impact-of-pathway-construction-at-keith-field.html",
@@ -654,7 +654,7 @@ window.JOURNALISM = [
 
   {
     title: "Upper Cape Tech Looks To Replace Roof, Build New Gym",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 29, 2026",
     url: "https://www.capenews.net/bourne/news/upper-cape-tech-looks-to-replace-roof-build-new-gym/article_d910d523-80ed-4add-9573-4c1fe1bd64bf.html",
     page: "news/upper-cape-tech-looks-to-replace-roof-build-new-gym.html",
@@ -663,7 +663,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Votes On Officer Positions",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 27, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-votes-on-officer-positions/article_c559c307-43d5-406d-b418-8198ebadc4d1.html",
     page: "news/bourne-select-board-votes-on-officer-positions.html",
@@ -672,7 +672,7 @@ window.JOURNALISM = [
 
   {
     title: "Chapoquoit Yacht Club Launches Collaborations",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 22, 2026",
     url: "https://www.capenews.net/bourne/news/chapoquoit-yacht-club-launches-collaborations/article_95786ba9-1f5f-443f-be4b-478fc2f74002.html",
     page: "news/chapoquoit-yacht-club-launches-collaborations.html",
@@ -681,7 +681,7 @@ window.JOURNALISM = [
 
   {
     title: "Gas Prices Rising Across Upper Cape, But Drivers' Habits Largely Unchanged",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 22, 2026",
     coauthors: "Lin Lin Hutchinson, Cearra O’Hern and Owen Drury Sullivan",
     url: "https://www.capenews.net/regional_news/gas-prices-rising-across-upper-cape-but-drivers-habits-largely-unchanged/article_74cd94d9-73fe-4f28-a593-4b3c843861e9.html",
@@ -691,7 +691,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Resident Shaves Her Hair For Childhood Cancer Fundraiser",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 20, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-resident-shaves-her-hair-for-childhood-cancer-fundraiser/article_f42eb49a-085b-421e-a5b4-64cc8dc59de3.html",
     page: "news/bourne-resident-shaves-her-hair-for-childhood-cancer-fundraiser.html",
@@ -700,7 +700,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Police Station Roof Building Committee Appoints New Members",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 15, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-police-station-roof-building-committee-appoints-new-members/article_a0b10dd8-a05e-41ff-9124-422529320363.html",
     page: "news/bourne-police-station-roof-building-committee-appoints-new-members.html",
@@ -709,7 +709,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Approves License For Bakery",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 15, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-approves-license-for-bakery/article_febfaf5a-1770-478b-949a-e8f38564f3f5.html",
     page: "news/bourne-select-board-approves-license-for-bakery.html",
@@ -718,7 +718,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Approves Licenses for New Golf Simulation Business",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 15, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-approves-licenses-for-new-golf-simulation-business/article_4b717f73-dc37-49ae-a08f-62528a65fc25.html",
     page: "news/bourne-select-board-approves-licenses-for-new-golf-simulation-business.html",
@@ -727,7 +727,7 @@ window.JOURNALISM = [
 
   {
     title: "Demolition Of Sagamore Beach Home Approved By Bourne Historical Commission",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 15, 2026",
     url: "https://www.capenews.net/bourne/news/demolition-of-sagamore-beach-home-approved-by-bourne-historical-commission/article_b91e0365-849c-43df-adb0-209ba7181b95.html",
     page: "news/demolition-of-sagamore-beach-home-approved-by-bourne-historical-commission.html",
@@ -736,7 +736,7 @@ window.JOURNALISM = [
 
   {
     title: "Federal, State And County Delegation Addresses Bourne Select Board",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 15, 2026",
     url: "https://www.capenews.net/bourne/news/federal-state-and-county-delegation-addresses-bourne-select-board/article_7c19df34-6b04-49ba-970b-9202c847631b.html",
     page: "news/federal-state-and-county-delegation-addresses-bourne-select-board.html",
@@ -745,7 +745,7 @@ window.JOURNALISM = [
 
   {
     title: "Town Of Bourne And BCT Collaborate On Open Space Parcels",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 15, 2026",
     url: "https://www.capenews.net/bourne/news/town-of-bourne-and-bct-collaborate-on-open-space-parcels/article_c4d5d991-4bf0-42c5-9cfe-cdc64e8514e0.html",
     page: "news/town-of-bourne-and-bct-collaborate-on-open-space-parcels.html",
@@ -754,7 +754,7 @@ window.JOURNALISM = [
 
   {
     title: "Road Repairs Begin At Barlows Landing, Shore Road Intersection",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 13, 2026",
     url: "https://www.capenews.net/bourne/news/road-repairs-begin-at-barlows-landing-shore-road-intersection/article_c830284f-af65-411d-99ba-86877bab3cbe.html",
     page: "news/road-repairs-begin-at-barlows-landing-shore-road-intersection.html",
@@ -763,7 +763,7 @@ window.JOURNALISM = [
 
   {
     title: "Fire Contained At Collision Center In Sandwich",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 10, 2026",
     url: "https://www.capenews.net/police_fire/fire-contained-at-collision-center-in-sandwich/article_7755d898-aab8-48fe-af2f-76960150942a.html",
     page: "news/fire-contained-at-collision-center-in-sandwich.html",
@@ -772,7 +772,7 @@ window.JOURNALISM = [
 
   {
     title: "Head-On Collision At Falmouth Road, Orchard Road",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 10, 2026",
     url: "https://www.capenews.net/police_fire/head-on-collision-at-falmouth-road-orchard-road/article_3873c6c3-a5d0-470b-a6ea-379cb4ddb18c.html",
     page: "news/head-on-collision-at-falmouth-road-orchard-road.html",
@@ -781,7 +781,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne ISWM Temporarily Suspends Commerical Brush, Yard Waste Acceptance",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 8, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-iswm-temporarily-suspends-commerical-brush-yard-waste-acceptance/article_746e3a9c-4760-46ef-8e18-4509d1f33505.html",
     page: "news/bourne-iswm-temporarily-suspends-commerical-brush-yard-waste-acceptance.html",
@@ -790,7 +790,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Authorizes Contract Negotiations With Pomroy Associates For Library Building",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 8, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-authorizes-contract-negotiations-with-pomroy-associates-for-library-building/article_64c18065-38b7-4cda-b6d6-08d11b28839b.html",
     page: "news/bourne-select-board-authorizes-contract-negotiations-with-pomroy-associates-for-library-building.html",
@@ -799,7 +799,7 @@ window.JOURNALISM = [
 
   {
     title: "All 32 Articles Pass At Bourne Town Meeting",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 6, 2026",
     url: "https://www.capenews.net/bourne/news/all-32-articles-pass-at-bourne-town-meeting/article_4e7b2bbc-f136-4932-862d-66d21891f614.html",
     page: "news/all-32-articles-pass-at-bourne-town-meeting.html",
@@ -808,7 +808,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Town Meeting Passes All 32 Articles",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 5, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-town-meeting-passes-all-32-articles/article_3ad0abf3-151b-49ad-85ee-59eb42e211b8.html",
     page: "news/bourne-town-meeting-passes-all-32-articles.html",
@@ -817,7 +817,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Historical Commission Approves Demolition Of Buzzards Bay Home",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 1, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-historical-commission-approves-demolition-of-buzzards-bay-home/article_7ea26c2c-a18a-4852-adfe-cfe48dfb9cd1.html",
     page: "news/bourne-historical-commission-approves-demolition-of-buzzards-bay-home.html",
@@ -826,7 +826,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Library Building Committee Recommends Hiring Pomroy Associates As OPM",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 1, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-library-building-committee-recommends-hiring-pomroy-associates-as-opm/article_3008570b-cd2a-4653-9903-6331b4d979e7.html",
     page: "news/bourne-library-building-committee-recommends-hiring-pomroy-associates-as-opm.html",
@@ -835,7 +835,7 @@ window.JOURNALISM = [
 
   {
     title: "Guidelines And Procedures For Bourne Town Meetings",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "May 1, 2026",
     url: "https://www.capenews.net/bourne/news/guidelines-and-procedures-for-bourne-town-meetings/article_539e16ba-21b1-427d-9911-f095f9f45372.html",
     page: "news/guidelines-and-procedures-for-bourne-town-meetings.html",
@@ -844,7 +844,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Town Meeting To Vote On 32 Articles",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 29, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-town-meeting-to-vote-on-32-articles/article_b9d382c3-6679-4f0e-8c9c-8d1bdfebabd9.html",
     page: "news/bourne-town-meeting-to-vote-on-32-articles.html",
@@ -853,7 +853,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Board of Health Enforces Tobacco Violation",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 24, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-board-of-health-enforces-tobacco-violation/article_1acf27da-2381-4981-8bb8-33d2e9698ba4.html",
     page: "news/bourne-board-of-health-enforces-tobacco-violation.html",
@@ -862,7 +862,7 @@ window.JOURNALISM = [
 
   {
     title: "Board Of Health Supports Syringe Service Programming",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 23, 2026",
     url: "https://www.capenews.net/bourne/news/board-of-health-supports-syringe-service-programming/article_85ef387a-9a11-4b20-bc82-cd7ace75cd60.html",
     page: "news/board-of-health-supports-syringe-service-programming.html",
@@ -871,7 +871,7 @@ window.JOURNALISM = [
 
   {
     title: "Cataumet Couple Acquire Bootstrap Farm Club",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 23, 2026",
     url: "https://www.capenews.net/bourne/news/cataumet-couple-acquire-bootstrap-farm-club/article_5760022c-99ef-4a42-9f89-dd9dc492ea3c.html",
     page: "news/cataumet-couple-acquire-bootstrap-farm-club.html",
@@ -880,7 +880,7 @@ window.JOURNALISM = [
 
   {
     title: "Herring Pond Wampanoag Tribe Chairwoman Highlights Sovereignty",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 22, 2026",
     url: "https://www.capenews.net/bourne/news/herring-pond-wampanoag-tribe-chairwoman-highlights-sovereignty/article_e52f8cb7-8793-47e0-a60d-322446380dfd.html",
     page: "news/herring-pond-wampanoag-tribe-chairwoman-highlights-sovereignty.html",
@@ -889,7 +889,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Grants Affordable Housing Trust's Extension Request",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 17, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-grants-affordable-housing-trusts-extension-request/article_980d7ec9-6cad-4bfd-8f2c-b71a47afaa77.html",
     page: "news/bourne-select-board-grants-affordable-housing-trusts-extension-request.html",
@@ -898,7 +898,7 @@ window.JOURNALISM = [
 
   {
     title: "Empty Seats On Bourne Police Roof Building Committee Causes Discussion",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 17, 2026",
     url: "https://www.capenews.net/bourne/news/empty-seats-on-bourne-police-roof-building-committee-causes-discussion/article_741b28e4-409a-444a-bae0-15f8d97d0e1d.html",
     page: "news/empty-seats-on-bourne-police-roof-building-committee-causes-discussion.html",
@@ -907,7 +907,7 @@ window.JOURNALISM = [
 
   {
     title: "Proposed Repairs At Jonathan Bourne Historical Center Well-Received",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 17, 2026",
     url: "https://www.capenews.net/bourne/news/proposed-repairs-at-jonathan-bourne-historical-center-well-received/article_fd23db93-ea2e-4316-8745-a5fab9a29fb8.html",
     page: "news/proposed-repairs-at-jonathan-bourne-historical-center-well-received.html",
@@ -916,7 +916,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Finalizes May Town Meeting Warrants",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 15, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-finalizes-may-town-meeting-warrants/article_56edba4c-0f94-4b81-bd3f-16fb5fbaf1c0.html",
     page: "news/bourne-finalizes-may-town-meeting-warrants.html",
@@ -925,7 +925,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Bike Path Committee Seeks Next Steps For Rail Trail Project",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 15, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-bike-path-committee-seeks-next-steps-for-rail-trail-project/article_b95af037-d1e3-4546-8d85-32ecc7f9d625.html",
     page: "news/bourne-bike-path-committee-seeks-next-steps-for-rail-trail-project.html",
@@ -934,7 +934,7 @@ window.JOURNALISM = [
 
   {
     title: "Sagamore Bridge Reopened After Accident On Southbound Lanes",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 14, 2026",
     url: "https://www.capenews.net/bourne/news/sagamore-bridge-reopened-after-accident-on-southbound-lanes/article_51814ce8-8216-4e9b-b983-0cd6391fb54e.html",
     page: "news/sagamore-bridge-reopened-after-accident-on-southbound-lanes.html",
@@ -943,7 +943,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Approves Donating Former Fire Station Parcel To MassDOT",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 10, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-approves-donating-former-fire-station-parcel-to-massdot/article_b5274f0a-718f-4828-998d-6d7771f35bf0.html",
     page: "news/bourne-select-board-approves-donating-former-fire-station-parcel-to-massdot.html",
@@ -952,7 +952,7 @@ window.JOURNALISM = [
 
   {
     title: "Cataumet Fish Liquor License Review Continues",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 10, 2026",
     url: "https://www.capenews.net/bourne/news/cataumet-fish-liquor-license-review-continues/article_2ae8b472-ab9a-463c-80f3-7e0839555fc6.html",
     page: "news/cataumet-fish-liquor-license-review-continues.html",
@@ -961,7 +961,7 @@ window.JOURNALISM = [
 
   {
     title: "Select Board, FinCom Continue Making Town Meeting Recommendations",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 9, 2026",
     url: "https://www.capenews.net/bourne/news/select-board-fincom-continue-making-town-meeting-recommendations/article_db4356dd-406e-4137-8ed2-d56ee0d97273.html",
     page: "news/select-board-fincom-continue-making-town-meeting-recommendations.html",
@@ -970,7 +970,7 @@ window.JOURNALISM = [
 
   {
     title: "Residents Press MassDOT On Bridge Replacement Details",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 8, 2026",
     url: "https://www.capenews.net/falmouth/news/residents-press-massdot-on-bridge-replacement-details/article_237f8c95-589e-4c11-9ccc-807db867141f.html",
     page: "news/residents-press-massdot-on-bridge-replacement-details.html",
@@ -979,7 +979,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Public Schools Presents FY27 Budget",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 3, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-public-schools-presents-fy27-budget/article_090cfcf4-58f6-4130-a566-9159f8cb9493.html",
     page: "news/bourne-public-schools-presents-fy27-budget.html",
@@ -988,7 +988,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Grants Liquor License To Local Restaurant",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 3, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-grants-liquor-license-to-local-restaurant/article_398e2ab8-a87d-49fb-91f3-2edb40e098f8.html",
     page: "news/bourne-select-board-grants-liquor-license-to-local-restaurant.html",
@@ -997,7 +997,7 @@ window.JOURNALISM = [
 
   {
     title: "UCT Presents Bourne's Share Of Budget",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 3, 2026",
     url: "https://www.capenews.net/bourne/news/uct-presents-bournes-share-of-budget/article_f24be00e-ffa0-4ce9-b509-41143132f0a6.html",
     page: "news/uct-presents-bournes-share-of-budget.html",
@@ -1006,7 +1006,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board, FinCom Begin Town Meeting Recommendations",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "April 2, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-fincom-begin-town-meeting-recommendations/article_c9bc597a-71c7-4f8e-b637-1aea01d0c47b.html",
     page: "news/bourne-select-board-fincom-begin-town-meeting-recommendations.html",
@@ -1015,7 +1015,7 @@ window.JOURNALISM = [
 
   {
     title: "Sandwich Road Near Mid-Cape Connector Reopened After Truck Hit Pole",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 30, 2026",
     url: "https://www.capenews.net/bourne/news/sandwich-road-near-mid-cape-connector-reopened-after-truck-hit-pole/article_5bace30a-08d9-4aa5-9d48-ab5bb000a89b.html",
     page: "news/sandwich-road-near-mid-cape-connector-reopened-after-truck-hit-pole.html",
@@ -1024,7 +1024,7 @@ window.JOURNALISM = [
 
   {
     title: "Fire Damages Highview Condominium Unit, Owner Escapes Safely",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 29, 2026",
     url: "https://www.capenews.net/sandwich/news/fire-damages-highview-condominium-unit-owner-escapes-safely/article_79872b23-6425-4d73-9a85-4ca810b51979.html",
     page: "news/fire-damages-highview-condominium-unit-owner-escapes-safely.html",
@@ -1033,7 +1033,7 @@ window.JOURNALISM = [
 
   {
     title: "Route 151 Reopened After Accident",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 28, 2026",
     url: "https://www.capenews.net/falmouth/news/route-151-reopened-after-accident/article_56428484-9c74-4757-a48d-88610fc2e943.html",
     page: "news/route-151-reopened-after-accident.html",
@@ -1042,7 +1042,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Health Board Reviews Preliminary South Side Fire Station Septic Plan",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 27, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-health-board-reviews-preliminary-south-side-fire-station-septic-plan/article_b1d18190-8d69-4a9a-81d5-cdad24a4855d.html",
     page: "news/bourne-health-board-reviews-preliminary-south-side-fire-station-septic-plan.html",
@@ -1051,7 +1051,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Sewer Commission OKs MMA Sewer Account Closure, $3,948 Fee Abatement",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 27, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-sewer-commission-oks-mma-sewer-account-closure-3-948-fee-abatement/article_e6d72c9f-1181-4efa-ba9c-6a477a3ca083.html",
     page: "news/bourne-sewer-commission-oks-mma-sewer-account-closure-3948-fee-abatement.html",
@@ -1060,7 +1060,7 @@ window.JOURNALISM = [
 
   {
     title: "MassDevelopment Presents Update On Base Cantonment Redevelopment Plan",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 27, 2026",
     url: "https://www.capenews.net/bourne/news/massdevelopment-presents-update-on-base-cantonment-redevelopment-plan/article_06f106a9-3702-4293-94e7-8f6649943cd1.html",
     page: "news/massdevelopment-presents-update-on-base-cantonment-redevelopment-plan.html",
@@ -1069,7 +1069,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Reviews Liquor License Revisions",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 25, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-reviews-liquor-license-revisions/article_ccf1ac36-52ef-4f21-9421-28c6180bf936.html",
     page: "news/bourne-select-board-reviews-liquor-license-revisions.html",
@@ -1078,7 +1078,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board, FinCom Continue To Hear Proposed Town Meeting Articles",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 20, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-fincom-continue-to-hear-proposed-town-meeting-articles/article_37c92290-cfce-45a0-97e1-10de14ca60c9.html",
     page: "news/bourne-select-board-fincom-continue-to-hear-proposed-town-meeting-articles.html",
@@ -1087,7 +1087,7 @@ window.JOURNALISM = [
 
   {
     title: "Proposed CPA-Funded Articles Presented To Bourne FinCom, Select Board",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 20, 2026",
     url: "https://www.capenews.net/bourne/news/proposed-cpa-funded-articles-presented-to-bourne-fincom-select-board/article_a95055c7-0088-4a44-aee1-57e7019e8e27.html",
     page: "news/proposed-cpa-funded-articles-presented-to-bourne-fincom-select-board.html",
@@ -1096,7 +1096,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne FY27 Budget Balanced After Deficit Discussions",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 19, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-fy27-budget-balanced-after-deficit-discussions/article_f1fb287c-335d-4e7e-be21-20c29e01942f.html",
     page: "news/bourne-fy27-budget-balanced-after-deficit-discussions.html",
@@ -1105,7 +1105,7 @@ window.JOURNALISM = [
 
   {
     title: "Bill Authorizing New Fire Station Borrowing Passes Legislature, Needs Governor's Signature",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 18, 2026",
     url: "https://www.capenews.net/bourne/news/bill-authorizing-new-fire-station-borrowing-passes-legislature-needs-governors-signature/article_1f8c3049-f361-4a8d-af32-176257105af9.html",
     page: "news/bill-authorizing-new-fire-station-borrowing-passes-legislature-needs-governors-signature.html",
@@ -1114,7 +1114,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne FinCom Hears FY27 Budget Updates",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 13, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-fincom-hears-fy27-budget-updates/article_f26a6265-3a8f-48e2-8c35-6b13ff00b654.html",
     page: "news/bourne-fincom-hears-fy27-budget-updates.html",
@@ -1123,7 +1123,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne School Committee, Select Board Discuss FY27 Budget Deficit",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 13, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-school-committee-select-board-discuss-fy27-budget-deficit/article_ddeaa87c-75a7-464c-9fc1-a4b723d25414.html",
     page: "news/bourne-school-committee-select-board-discuss-fy27-budget-deficit.html",
@@ -1132,7 +1132,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne FinCom Hears Town Meeting Articles",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 11, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-fincom-hears-town-meeting-articles/article_19ddfd5e-8b36-4747-b038-42f22bb602af.html",
     page: "news/bourne-fincom-hears-town-meeting-articles.html",
@@ -1141,7 +1141,7 @@ window.JOURNALISM = [
 
   {
     title: "Community Preservation Committee Recommends Requests",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 6, 2026",
     url: "https://www.capenews.net/bourne/news/community-preservation-committee-recommends-requests/article_c5f86bca-ea1c-4bc6-aa24-719429e0b3ef.html",
     page: "news/community-preservation-committee-recommends-requests.html",
@@ -1150,7 +1150,7 @@ window.JOURNALISM = [
 
   {
     title: "MassDOT Eyes Vacant Lot For Scenic Highway On-Ramp",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 6, 2026",
     url: "https://www.capenews.net/bourne/news/massdot-eyes-vacant-lot-for-scenic-highway-on-ramp/article_78ba4a3a-2d00-4c31-893f-e8d403c74a76.html",
     page: "news/massdot-eyes-vacant-lot-for-scenic-highway-on-ramp.html",
@@ -1159,7 +1159,7 @@ window.JOURNALISM = [
 
   {
     title: "Select Board Questions UCT Enrollment Discrepancies",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "March 6, 2026",
     url: "https://www.capenews.net/bourne/news/select-board-questions-uct-enrollment-discrepancies/article_e50891e5-a076-4943-9aac-2edcb258f899.html",
     page: "news/select-board-questions-uct-enrollment-discrepancies.html",
@@ -1168,7 +1168,7 @@ window.JOURNALISM = [
 
   {
     title: "Keene House Relocation Funds To Return To Bourne CPC",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 27, 2026",
     url: "https://www.capenews.net/bourne/news/keene-house-relocation-funds-to-return-to-bourne-cpc/article_5531d5c3-afed-4899-bd65-0fd1107e91c5.html",
     page: "news/keene-house-relocation-funds-to-return-to-bourne-cpc.html",
@@ -1177,7 +1177,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Announces Pilot Program For Substance Use Treatment, Behavorial Health Services",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 20, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-announces-pilot-program-for-substance-use-treatment-behavorial-health-services/article_3a52eb8e-3aad-40da-ae89-d9a8b21fe22c.html",
     page: "news/bourne-announces-pilot-program-for-substance-use-treatment-behavorial-health-services.html",
@@ -1186,7 +1186,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne To Review Private Way Betterment Policy",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 20, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-to-review-private-way-betterment-policy/article_259d57b7-a5fa-4fd3-8565-c58d7e7e63ef.html",
     page: "news/bourne-to-review-private-way-betterment-policy.html",
@@ -1195,7 +1195,7 @@ window.JOURNALISM = [
 
   {
     title: "MBPC Raises $53,250 For Bourne Friends Food Pantry",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 18, 2026",
     url: "https://www.capenews.net/bourne/news/mbpc-raises-53-250-for-bourne-friends-food-pantry/article_17aad255-3885-4d03-a761-7a75bd51949d.html",
     page: "news/mbpc-raises-53250-for-bourne-friends-food-pantry.html",
@@ -1204,7 +1204,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Advisory Committee On Pedestrian Bicycle Pathway's Future Discussed",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 13, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-advisory-committee-on-pedestrian-bicycle-pathways-future-discussed/article_00553ed6-2471-431e-985b-f19b437547e2.html",
     page: "news/bourne-advisory-committee-on-pedestrian-bicycle-pathways-future-discussed.html",
@@ -1213,7 +1213,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne FinCom To Wait For Town Counsel's Opinion",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 13, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-fincom-to-wait-for-town-counsels-opinion/article_643f69b0-4b58-4955-811b-2938fe2916e7.html",
     page: "news/bourne-fincom-to-wait-for-town-counsels-opinion.html",
@@ -1222,7 +1222,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Finance Committee Hears FY27 Capital Requests",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 13, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-finance-committee-hears-fy27-capital-requests/article_ca4719fb-876c-4433-9d51-a87fb34bb04a.html",
     page: "news/bourne-finance-committee-hears-fy27-capital-requests.html",
@@ -1231,7 +1231,7 @@ window.JOURNALISM = [
 
   {
     title: "Select Board Agrees On Phased Approach For Watershed Permitting",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 13, 2026",
     url: "https://www.capenews.net/bourne/news/select-board-agrees-on-phased-approach-for-watershed-permitting/article_fe428f61-aed0-47a2-bc0d-fedfa4930cdc.html",
     page: "news/select-board-agrees-on-phased-approach-for-watershed-permitting.html",
@@ -1240,7 +1240,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Facing Budget Shortfalls",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 6, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-facing-budget-shortfalls/article_2a72c54e-d4c1-4ac0-9a9e-2c3d05c0418e.html",
     page: "news/bourne-facing-budget-shortfalls.html",
@@ -1249,7 +1249,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne FinCom, Select Board Discuss Town Meeting Roles, Responsibilties",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 6, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-fincom-select-board-discuss-town-meeting-roles-responsibilties/article_f5fdc5d7-6404-49a9-859e-d00c9c95de4c.html",
     page: "news/bourne-fincom-select-board-discuss-town-meeting-roles-responsibilties.html",
@@ -1258,7 +1258,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Hears Scenic Highway Median Project",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 6, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-hears-scenic-highway-median-project/article_6d7587ed-8c75-44bd-986e-8f246d95d9b0.html",
     page: "news/bourne-select-board-hears-scenic-highway-median-project.html",
@@ -1267,7 +1267,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Town Clerk Proposes Articles For Town Meeting",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 6, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-town-clerk-proposes-articles-for-town-meeting/article_13f0ddec-d452-47c2-b14a-7a90cd143b0c.html",
     page: "news/bourne-town-clerk-proposes-articles-for-town-meeting.html",
@@ -1276,7 +1276,7 @@ window.JOURNALISM = [
 
   {
     title: "New Owners Of Sub-Marines Sandwich Shop: Ready To Serve Community",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "February 6, 2026",
     url: "https://www.capenews.net/bourne/news/new-owners-of-sub-marines-sandwich-shop-ready-to-serve-community/article_94291ecf-42ac-4447-bee8-38bb0a7249e1.html",
     page: "news/new-owners-of-sub-marines-sandwich-shop-ready-to-serve-community.html",
@@ -1285,7 +1285,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne DNR Requests Annual Funding For Ramp, Pier, Dredging Projects",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 30, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-dnr-requests-annual-funding-for-ramp-pier-dredging-projects/article_eaf5ed6c-a6b4-49e0-9933-6ab6161ae849.html",
     page: "news/bourne-dnr-requests-annual-funding-for-ramp-pier-dredging-projects.html",
@@ -1294,7 +1294,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Approves Sale Of BANs Worth $17.2M",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 30, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-approves-sale-of-bans-worth-17-2m/article_21d96f4a-754d-4f58-bcf9-49b39dcc6c4d.html",
     page: "news/bourne-select-board-approves-sale-of-bans-worth-172m.html",
@@ -1303,7 +1303,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Sewer Commission, Rec. Authority Resolve Sewer Fee Cost",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 30, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-sewer-commission-rec-authority-resolve-sewer-fee-cost/article_407c2805-fc15-4b07-ab40-89f7d3cf5920.html",
     page: "news/bourne-sewer-commission-rec-authority-resolve-sewer-fee-cost.html",
@@ -1312,7 +1312,7 @@ window.JOURNALISM = [
 
   {
     title: "MassDOT Interested In Vacant Land For Scenic Highway On-Ramp To Sagamore Bridge",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 30, 2026",
     url: "https://www.capenews.net/bourne/news/massdot-interested-in-vacant-land-for-scenic-highway-on-ramp-to-sagamore-bridge/article_bde3bfeb-ae4f-4986-9675-a3656201b914.html",
     page: "news/massdot-interested-in-vacant-land-for-scenic-highway-on-ramp-to-sagamore-bridge.html",
@@ -1321,7 +1321,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Department Heads Present Proposed FY27 Operating Budgets",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 23, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-department-heads-present-proposed-fy27-operating-budgets/article_da55e076-d85c-4140-89dc-6d93ca136074.html",
     page: "news/bourne-department-heads-present-proposed-fy27-operating-budgets.html",
@@ -1330,7 +1330,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Discusses The County's Proposed Luxury House Transfer Fee",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 23, 2026",
     coauthors: "Katie Nelson",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-discusses-the-countys-proposed-luxury-house-transfer-fee/article_40879c80-6d10-44e1-a408-2e74491d4ee8.html",
@@ -1340,7 +1340,7 @@ window.JOURNALISM = [
 
   {
     title: "Sunset Acres Road Repair Petition Continues",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 16, 2026",
     url: "https://www.capenews.net/bourne/news/sunset-acres-road-repair-petition-continues/article_9f8e9e87-f845-46b8-b673-2c92c6a6a32a.html",
     page: "news/sunset-acres-road-repair-petition-continues.html",
@@ -1349,7 +1349,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Select Board Authorizes Bourne Cannabis As HCA Recipient",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 15, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-select-board-authorizes-bourne-cannabis-as-hca-recipient/article_5c152525-9252-49e3-a589-f0ff6f5153df.html",
     page: "news/bourne-select-board-authorizes-bourne-cannabis-as-hca-recipient.html",
@@ -1358,7 +1358,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne's FY27 Budget Cites Trade-offs",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 8, 2026",
     url: "https://www.capenews.net/bourne/news/bournes-fy27-budget-cites-trade-offs/article_d73580a1-fc9d-41f5-a2f7-69a4cce71643.html",
     page: "news/bournes-fy27-budget-cites-trade-offs.html",
@@ -1367,7 +1367,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Seeks Volunteers For Charter Review Committee And More",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 7, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-seeks-volunteers-for-charter-review-committee-and-more/article_6c5456a0-2d54-49e6-996b-0520314a20ec.html",
     page: "news/bourne-seeks-volunteers-for-charter-review-committee-and-more.html",
@@ -1376,7 +1376,7 @@ window.JOURNALISM = [
 
   {
     title: "Bourne Rings In 2026 With A True Polar Plunge",
-    publication: "The Enterprise",
+    publication: "the Enterprise",
     date: "January 1, 2026",
     url: "https://www.capenews.net/bourne/news/bourne-rings-in-2026-with-a-true-polar-plunge/article_0141dace-371f-4048-af12-f16f6fd15e84.html",
     page: "news/bourne-rings-in-2026-with-a-true-polar-plunge.html",
